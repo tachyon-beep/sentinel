@@ -1,0 +1,11 @@
+sentinelmain/venv/
+sentinelmain/.vscode
+sentinelmain/*.log
+sentinelmain/.env
+sentinelmain/*.json
+sentinelgpt/venv
+sentinelgpt/.vscode
+sentinelgpt/*.log
+sentinelgpt/.env
+sentinelgpt/*.json
+.flake8
