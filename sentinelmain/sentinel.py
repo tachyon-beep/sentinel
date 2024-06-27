@@ -233,6 +233,18 @@ class SentinelGPTProcessManager:
         except (OSError, subprocess.SubprocessError) as e:
             logging.error("Failed to start SentinelGPT process: %s", e)
 
+    async def check_health(self):
+        """
+        Check the health of the SentinelGPT process and restart if necessary.
+        """
+        logging.info("Checking SentinelGPT process health...")
+        if self.process is None or self.process.returncode is not None:
+            logging.warning(
+                "SentinelGPT process is not running or has terminated. Attempting to restart...")
+            await self.restart_process()
+        else:
+            logging.info("SentinelGPT process appears to be running normally.")
+
     async def log_errors(self):
         try:
             while True:
@@ -304,55 +316,38 @@ class SentinelGPTProcessManager:
             if not self.process:
                 logging.error("SentinelGPT process restart failed.")
 
-    async def process_messages(self, messages: List[str], timeout: int = 30):
-        responses = []
-        for message in messages:
-            try:
-                # We'll only pass the message to process_single_message
-                response = await self.process_single_message(message)
-                responses.append(response)
-            except asyncio.TimeoutError:
-                logging.error("Timeout processing message: %s", message)
-                responses.append("Error: Command processing timed out")
-            except Exception as e:
-                logging.error(
-                    "Error processing message: %s. Error: %s", message, str(e))
-                responses.append(f"Error: {str(e)}")
-        return responses
-
     async def process_single_message(self, message: str) -> str:
-        logging.debug(f"Attempting to send message to SentinelGPT: {message}")
-
+        logging.debug(f"Sending message to SentinelGPT: {message}")
         try:
-            logging.debug(f"Writing message to SentinelGPT stdin: {message}")
             self.process.stdin.write(f"{message}\n".encode())
-            logging.debug("Message written, now draining stdin")
             await self.process.stdin.drain()
-            logging.debug("Message sent to SentinelGPT successfully")
-        except Exception as e:
-            logging.error(
-                f"Error sending message to SentinelGPT: {e}", exc_info=True)
-            raise
+            logging.debug(
+                "Message sent to SentinelGPT, waiting for response...")
 
-        logging.debug("Waiting for response from SentinelGPT")
-        try:
             response = await self._read_response()
-            logging.debug(f"Received response from SentinelGPT: {response}")
+            # Log first 100 chars
+            logging.debug(
+                f"Received complete response from SentinelGPT: {response[:100]}...")
             return response
         except Exception as e:
-            logging.error(f"Error reading response from SentinelGPT: {e}")
+            logging.error(
+                f"Error in process_single_message: {e}", exc_info=True)
             raise
 
     async def _read_response(self):
         response_lines = []
         while True:
             try:
-                line = await asyncio.wait_for(self.process.stdout.readline(), timeout=10.0)
-                logging.debug(f"Read line from SentinelGPT: {line}")
-                if line.endswith(b"##END##\n"):
-                    response_lines.append(line[:-7])
+                line = await asyncio.wait_for(self.process.stdout.readline(), timeout=30.0)
+                if not line:
+                    logging.error("Received empty line from SentinelGPT")
                     break
-                response_lines.append(line)
+                decoded_line = line.decode().strip()
+                logging.debug(f"Read line from SentinelGPT: {decoded_line}")
+                if decoded_line == "##END##":
+                    logging.info("Received end-of-response marker")
+                    break
+                response_lines.append(decoded_line)
             except asyncio.TimeoutError:
                 logging.error(
                     "Timeout while reading response from SentinelGPT")
@@ -360,13 +355,23 @@ class SentinelGPTProcessManager:
             except Exception as e:
                 logging.error(f"Error reading line from SentinelGPT: {e}")
                 break
-        return b"".join(response_lines).decode().strip()
 
-    async def check_health(self):
-        if self.process is None or self.process.returncode is not None:
-            logging.warning(
-                "SentinelGPT process is not running. Restarting...")
-            await self.start_process()
+        full_response = "\n".join(response_lines)
+        logging.info(
+            f"Compiled full response (first 100 chars): {full_response[:100]}...")
+        return full_response
+
+    async def process_messages(self, messages: List[str]):
+        responses = []
+        for message in messages:
+            try:
+                response = await self.process_single_message(message)
+                responses.append(response)
+            except Exception as e:
+                logging.error(
+                    f"Error processing message: {message}. Error: {str(e)}")
+                responses.append(f"Error: {str(e)}")
+        return responses
 
 
 def extract_group_info(msg: str) -> Tuple[Optional[str], Optional[str]]:
@@ -644,20 +649,26 @@ async def process_command_message(
     parts = body.split(maxsplit=1)
     if len(parts) == 2:
         prefix, command = parts
-        prefix = prefix.lstrip("!")
+        prefix = prefix.lstrip("!").lower()
 
-        if prefix.lower() in sentinel_gpt.known_assistants:
+        if prefix in sentinel_gpt.known_assistants:
             logging.info(f"Command for assistant '{prefix}': {command}")
             try:
                 async with sentinel_gpt.subprocess_lock:
+                    logging.info(
+                        "Sending command to SentinelGPT and waiting for response...")
                     responses = await sentinel_gpt.process_messages([f"{prefix} {command}"])
+                    logging.info(
+                        f"Received response from SentinelGPT. Response length: {len(responses[0]) if responses else 0}")
 
                 if responses:
-                    for response in responses:
-                        formatted_response = f"THE MACHINE HAS RETURNED WITH THE ANSWERS YOU SEEK\n\n{response}"
-                        logging.info(f"Sending response for command: {body}")
+                    for i, response in enumerate(responses, 1):
+                        formatted_response = f"THE MACHINE HAS RETURNED WITH THE ANSWERS YOU SEEK\n{response}"
+                        logging.info(
+                            f"Sending response part {i}/{len(responses)} to Signal")
                         await send_signal_message(phone_number, group_id, formatted_response)
-                        logging.info(f"Response sent for command: {body}")
+                        logging.info(
+                            f"Response part {i}/{len(responses)} sent to Signal")
                 else:
                     logging.warning(
                         f"No response generated for command: {body}")
@@ -676,6 +687,8 @@ async def process_command_message(
     else:
         logging.warning(f"Invalid command format: {body}")
         await send_signal_message(phone_number, group_id, "Invalid command format. Please use '!command argument'.")
+
+    logging.info(f"Finished processing command message: {body}")
 
 
 async def send_message_responses(
