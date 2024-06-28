@@ -144,58 +144,70 @@ class GameStateMonitor:
         return game_state
 
     async def check_game_and_notify(self, game: Dict):
-        try:
-            logging.info(f"Starting game state check for game: {game['url']}")
-            url = game["url"]
+        logging.info(f"Starting game state check for game: {game['url']}")
+        url = game["url"]
 
-            html = await self.fetch_game_page(url)
-            if html is None:
-                logging.error(f"Failed to fetch game page for URL: {url}")
-                return
-            logging.info(f"Successfully fetched game page for URL: {url}")
+        html = await self.fetch_game_page(url)
+        if html is None:
+            logging.error(f"Failed to fetch game page for URL: {url}")
+            return
+        logging.info(f"Successfully fetched game page for URL: {url}")
 
-            current_state = self.extract_game_state(html)
-            if current_state is None:
-                logging.error(f"Failed to extract game state for URL: {url}")
-                return
-            logging.info(f"Successfully extracted game state for URL: {url}")
+        current_state = self.extract_game_state(html)
+        if current_state is None:
+            logging.error(f"Failed to extract game state for URL: {url}")
+            return
+        logging.info(f"Successfully extracted game state for URL: {url}")
 
-            async with self.game_states_lock:
-                last_state = self.game_states.get(url, {}).get("state")
-                logging.info(f"Last state: {last_state}")
-                logging.info(f"Current state: {current_state}")
+        async with self.game_states_lock:
+            last_state = self.game_states.get(url, {}).get("state")
+            logging.info(f"Last state: {last_state}")
+            logging.info(f"Current state: {current_state}")
 
-                moved_factions = []
-                state_changed = False
-                if last_state:
-                    for last_player, current_player in zip(last_state["players"], current_state["players"]):
-                        if last_player["status"] != current_player["status"]:
-                            state_changed = True
-                            if last_player["status"] == "-" and current_player["status"] == "Turn played":
-                                moved_factions.append(
-                                    current_player["faction"])
-                                logging.info(
-                                    f"Faction {current_player['faction']} has moved")
+            moved_factions = []
+            state_changed = False
+            if last_state:
+                for last_player, current_player in zip(last_state["players"], current_state["players"]):
+                    if last_player["status"] != current_player["status"]:
+                        state_changed = True
+                        if last_player["status"] != "Turn played" and current_player["status"] == "Turn played":
+                            faction = current_player["faction"]
+                            # Check if the player is not a CPU
+                            if game["players"].get(faction, {}).get("name") != "CPU":
+                                moved_factions.append(faction)
+                                logging.info(f"Faction {faction} has moved")
+
+            if state_changed and moved_factions:  # Only notify if there are non-CPU moves
+                logging.info("State change detected, preparing notifications")
+
+                notification_message = f"Game state change detected for {game['url']}:\n"
+                for moved_faction in moved_factions:
+                    player_name = game["players"][moved_faction]["name"]
+                    notification_message += f"- {moved_faction} ({player_name}) has played their turn\n"
+
+                group_id = game.get('group')
+                if group_id:
+                    try:
+                        await send_signal_message(self.config['phone_number'], group_id, notification_message)
+                        logging.info(f"Notification sent to group {group_id}")
+                    except Exception as e:
+                        logging.error(
+                            f"Failed to send notification to group {group_id}: {e}")
                 else:
-                    logging.info(
-                        "No last state available, this might be the first check")
+                    logging.warning(
+                        f"No group ID specified for game {game['url']}")
+            elif state_changed:
+                logging.info(
+                    "State change detected, but only CPU players moved. No notification sent.")
+            else:
+                logging.info("No state change detected")
 
-                if state_changed:
-                    logging.info(
-                        "State change detected, preparing notifications")
-                    # ... (rest of the notification logic)
-                else:
-                    logging.info("No state change detected")
+            self.game_states[url] = {
+                "state": current_state,
+                "last_change_time": datetime.datetime.now(),
+            }
 
-                self.game_states[url] = {
-                    "state": current_state,
-                    "last_change_time": datetime.datetime.now(),
-                }
-
-            logging.info(f"Game state check completed for game: {game['url']}")
-        except Exception as e:
-            logging.error(
-                f"Unexpected error in check_game_and_notify for game {game['url']}: {e}", exc_info=True)
+        logging.info(f"Game state check completed for game: {game['url']}")
 
 
 class SentinelGPTProcessManager:
@@ -835,7 +847,7 @@ async def main():
             receive_signal_messages(config["phone_number"], config))
 
         while True:
-            await asyncio.sleep(1)
+            await asyncio.sleep(300)
             await sentinel_gpt.check_health()
 
     except asyncio.CancelledError:
