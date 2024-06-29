@@ -1,0 +1,1268 @@
+<qa_pairs>
+<pair>
+<question>What options are available under the "Game Tools" menu in Dominions 6?</question>
+<answer>The "Game Tools" menu in Dominions 6 includes options to create new pretenders, manage existing pretenders, access a map editor, create random maps with custom settings, and provides a shortcut to the directory where Dominions 6 stores your files.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the recommended way to play online multiplayer in Dominions 6?</question>
+<answer>The recommended way to play online multiplayer in Dominions 6 is to use the official game server. You can choose "Network" and then "Enter Game Lobby" from the main menu to set up or join a game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What should you do if you want to set up your own personal game server for Dominions 6?</question>
+<answer>Setting up your own personal game server for Dominions 6 is more complicated, and you should refer to the Dominions 5 manual for instructions. The recommended method is to use the game lobby.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you view a different province in Dominions 6?</question>
+<answer>To view a different province in Dominions 6, you right-click on the province. This can be changed to left-click in the preferences if desired.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you select a commander in Dominions 6?</question>
+<answer>To select a commander in Dominions 6, you left-click on the commander's icon. The icon will turn white to indicate the commander is selected.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you give a commander an order to move in Dominions 6?</question>
+<answer>To give a commander an order to move in Dominions 6, you left-click on the province to which you want the commander to move.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the function of right-clicking in many cases in Dominions 6?</question>
+<answer>In Dominions 6, right-clicking in many cases gives you further information. For example, right-clicking on a unit provides information about the unit, and the same applies for magic items or spells.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Where are most basic game functions located in Dominions 6?</question>
+<answer>Most basic game functions in Dominions 6 are located in a row of buttons at the top right of the map screen. These buttons are divided into five sections.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What actions do the province buttons perform in Dominions 6?</question>
+<answer>The province buttons in Dominions 6 perform actions for the current province only. These include ending the turn, army setup, recruiting units, viewing mercenaries, and reading province chronicles.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the keyboard shortcut for ending the turn in Dominions 6?</question>
+<answer>The keyboard shortcut for ending the turn in Dominions 6 is (e).</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the purpose of the "Army setup" button in Dominions 6?</question>
+<answer>The "Army setup" button in Dominions 6, accessed with the shortcut (t), is where you can assign your units to commanders, change formations, and array your forces on the battlefield.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the "Army setup at destination" button differ from the regular "Army setup" in Dominions 6?</question>
+<answer>The "Army setup at destination" button in Dominions 6, accessed with the shortcut (y), shows commanders that will be present in the province next turn, rather than those currently present.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>When is the "Patrolling army setup" button particularly useful in Dominions 6?</question>
+<answer>The "Patrolling army setup" button, accessed with the shortcut (u), is particularly useful in fortified provinces as it shows only patrolling commanders.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you open the recruitment panel for a given nation in Dominions 6?</question>
+<answer>You can open the recruitment panel for a given nation in Dominions 6 by using the "Recruit unit" button, accessed with the shortcut (r). This shows the units available for recruitment in the selected province.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you view available mercenaries in Dominions 6?</question>
+<answer>You can view available mercenaries in Dominions 6 by using the "Mercenaries" button, accessed with the shortcut (b). You can bid on these by clicking on the name of the company you wish to bid on.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information can you read in the "Read Province Chronicles" section in Dominions 6?</question>
+<answer>In the "Read Province Chronicles" section, accessed with the shortcut (i), you can read information about the province and its inhabitants as well as all past important events that have occurred in the province.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What do the nation buttons in Dominions 6 control?</question>
+<answer>The nation buttons in Dominions 6 are not dependent on the current province and include actions like reading messages, sending messages, viewing the nation overview, score graphs, Hall of Fame, and the list of pretenders.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you access the screen to read beginning-of-turn messages in Dominions 6?</question>
+<answer>You can access the screen to read beginning-of-turn messages in Dominions 6 by using the "Read messages" button, accessed with the shortcut (m).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you send messages, items, or gold to other players in Dominions 6?</question>
+<answer>You can send messages, items, or gold to other players in Dominions 6 by using the "Send messages" button, accessed with the shortcut (s).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information does the "Nation Overview" screen provide in Dominions 6?</question>
+<answer>The "Nation Overview" screen, accessed with the shortcut (F1), provides a global picture of your units and provinces, allows you to buy province defense, and keeps track of magic site searches.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What can you view in the "Score graphs" section if it is enabled in Dominions 6?</question>
+<answer>If enabled, the "Score graphs" section, accessed with the shortcut (F2), allows you to see a running comparison of the strengths of various nations in terms of provinces owned, total dominion, army size, etc.</answer>
+<difficulty
+
+>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the "Hall of Fame" in Dominions 6?</question>
+<answer>The "Hall of Fame", accessed with the shortcut (F3), lists commanders who have survived the most fights and killed the most enemies, granting them a Heroic Ability that continues to improve as long as they are listed.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does the "Pretenders" screen display in Dominions 6?</question>
+<answer>The "Pretenders" screen, accessed with the shortcut (F4), displays a list of all pretenders in the game unless information on other players was disabled during game creation.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What functions do the magic buttons provide in Dominions 6?</question>
+<answer>The magic buttons in Dominions 6 provide access to the Research screen (F5), Global Enchantments (F6), Magic item treasury (F7), Magic item overview (F8), and Thrones of Ascension (F9).</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you access the Research screen in Dominions 6?</question>
+<answer>You can access the Research screen in Dominions 6 by using the "Research" button, accessed with the shortcut (F5).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information can you find in the "Global Enchantments" screen in Dominions 6?</question>
+<answer>The "Global Enchantments" screen, accessed with the shortcut (F6), shows you the global enchantment spells currently affecting the world.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What can you see in the "Magic item treasury" screen in Dominions 6?</question>
+<answer>The "Magic item treasury" screen, accessed with the shortcut (F7), shows the magic items you have stored in your treasury.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the "Magic item overview" screen help you in Dominions 6?</question>
+<answer>The "Magic item overview" screen, accessed with the shortcut (F8), provides an easy way to see all magic items in your kingdom, both in the treasury and equipped on commanders, and learn their locations.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information does the "Thrones of Ascension" screen provide in Dominions 6?</question>
+<answer>The "Thrones of Ascension" screen, accessed with the shortcut (F9), displays the Thrones of Ascension active in the game, if any.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What options are available in the "Options" button in Dominions 6?</question>
+<answer>The "Options" button, accessed with the shortcut (Esc), allows you to adjust music and video settings, save the game, and quit the game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What happens when you press the "End Turn" button in Dominions 6?</question>
+<answer>Pressing the "End Turn" button, accessed with the shortcut (e), saves your move to a file in the game folder or uploads it to the server if playing online. In a solo game, it automatically hosts the current turn.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the "plane buttons" used for in Dominions 6?</question>
+<answer>The plane buttons in Dominions 6 allow you to view different planes, such as the Pantokrator's realm, the realm beneath, and the void. These buttons are greyed out if you currently have no access to the respective plane.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you hide all buttons and commanders to view only the map in Dominions 6?</question>
+<answer>To hide all buttons and commanders in Dominions 6, press the "h" key. This makes only the map visible.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What do the yellow dotted lines on the map indicate in Dominions 6?</question>
+<answer>The yellow dotted lines on the map in Dominions 6 indicate neighboring provinces. They can be toggled on and off using the [Ctrl+8] key.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the keyboard shortcuts for scrolling the map and zooming in Dominions 6?</question>
+<answer>In Dominions 6, you can scroll the map using the arrow keys. To zoom in, use the Page Up or Ctrl+Up keys, and to zoom out, use the Page Down or Ctrl+Down keys.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "Ctrl+f" keyboard shortcut do in Dominions 6?</question>
+<answer>The "Ctrl+f" keyboard shortcut in Dominions 6 opens the map filter menu.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you toggle the display of province names in Dominions 6?</question>
+<answer>You can toggle the display of province names in Dominions 6 using the "Ctrl+9" keyboard shortcut.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the significance of the province attributes in Dominions 6?</question>
+<answer>Province attributes in Dominions 6 are important as they determine the province's contribution to the game, such as income, resources, supply, and magic sites. Attributes are visible in the province info box if you have scouted or control the province.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What information is shown at the top of the province info box in Dominions 6?</question>
+<answer>The top of the province info box in Dominions 6 shows the terrain type of the province, which is crucial for determining the province's value in terms of income, resources, supply, and magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does terrain affect movement in Dominions 6?</question>
+<answer>In Dominions 6, terrain can allow or restrict multi-province movement. For example, underwater provinces can only be entered by units with specific abilities like amphibian, aquatic, or water-breathing, and flying units cannot cross them.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What bonuses do farmland provinces typically provide in Dominions 6?</question>
+<answer>Farmland provinces in Dominions 6 typically have high population (and therefore high income) but low resources and few magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the typical attributes of mountain range provinces in Dominions 6?</question>
+<answer>Mountain range provinces in Dominions 6 typically provide excellent resources and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the river terrain impact provinces in Dominions 6?</question>
+<answer>The river terrain in Dominions 6 indicates an abundance of freshwater and applies to all lands adjacent to the river, contributing to the province's attributes.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What limitations do underwater provinces have in Dominions 6?</question>
+<answer>Underwater provinces in Dominions 6 cannot be entered by units without special abilities (e.g., amphibian, aquatic, or water-breathing), do not contribute resources to fortresses on land, and cannot be crossed by flying units.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can sailing units remain in water provinces at the end of a turn in Dominions 6?</question>
+<answer>No, in Dominions 6, units with the sailing ability can cross water provinces but cannot remain there at the end of a turn.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the population and resource attributes of swamp provinces in Dominions 6?</question>
+<answer>Swamp provinces in Dominions 6 typically have very low population but provide many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Which terrain type in Dominions 6 is known for extremely low population but abundant magic sites?</question>
+<answer>The wasteland terrain type in Dominions 6 is known for extremely low population
+
+ but abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the primary attributes of forest provinces in Dominions 6?</question>
+<answer>Forest provinces in Dominions 6 typically have low population, high resources, and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is a distinguishing feature of deep sea provinces in Dominions 6?</question>
+<answer>Deep sea provinces in Dominions 6 typically have very low population but high resources and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do cave terrains affect provinces in Dominions 6?</question>
+<answer>Cave terrains in Dominions 6 typically have low population and do not contribute resources, but may have various other attributes depending on the specific cave type.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of a gorge terrain in Dominions 6?</question>
+<answer>Gorge terrains in Dominions 6 typically have low population, high resources, and abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Which terrain type provides very high population but low resources and few magic sites in Dominions 6?</question>
+<answer>Farm terrain provides very high population but low resources and few magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do kelp forest terrains affect provinces in Dominions 6?</question>
+<answer>Kelp forest terrains in Dominions 6 typically have high population but do not contribute resources or magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the impact of drip cave terrains on provinces in Dominions 6?</question>
+<answer>Drip cave terrains in Dominions 6 typically provide excellent resources but do not contribute to population or magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the characteristics of crystal cave terrains in Dominions 6?</question>
+<answer>Crystal cave terrains in Dominions 6 typically have very low population, high resources, and abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the forest cave terrain differ from regular forest terrain in Dominions 6?</question>
+<answer>Forest cave terrains in Dominions 6 typically have high population and many magic sites, unlike regular forests which have low population.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do turns work in Dominions 6 multiplayer games?</question>
+<answer>In Dominions 6 multiplayer games, turns are resolved simultaneously. All players can complete their turns independently, and once everyone is finished, a new turn is generated.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the recommended way to play online multiplayer in Dominions 6?</question>
+<answer>The recommended way to play online multiplayer in Dominions 6 is to use the official game server. You can choose "Network" and then "Enter Game Lobby" from the main menu to set up or join a game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is an important security measure to remember when playing Dominions 6 online?</question>
+<answer>When playing Dominions 6 online, it is important to add a password to your pretender to prevent others from peeking at or altering your turns.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What should you do if you want to set up your own personal game server for Dominions 6?</question>
+<answer>Setting up your own personal game server for Dominions 6 is more complicated, and you should refer to the Dominions 5 manual for instructions. The recommended method is to use the game lobby.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you view a different province in Dominions 6?</question>
+<answer>To view a different province in Dominions 6, you right-click on the province. This can be changed to left-click in the preferences if desired.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you select a commander in Dominions 6?</question>
+<answer>To select a commander in Dominions 6, you left-click on the commander's icon. The icon will turn white to indicate the commander is selected.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you give a commander an order to move in Dominions 6?</question>
+<answer>To give a commander an order to move in Dominions 6, you left-click on the province to which you want the commander to move.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the function of right-clicking in many cases in Dominions 6?</question>
+<answer>In Dominions 6, right-clicking in many cases gives you further information. For example, right-clicking on a unit provides information about the unit, and the same applies for magic items or spells.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Where are most basic game functions located in Dominions 6?</question>
+<answer>Most basic game functions in Dominions 6 are located in a row of buttons at the top right of the map screen. These buttons are divided into five sections.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What actions do the province buttons perform in Dominions 6?</question>
+<answer>The province buttons in Dominions 6 perform actions for the current province only. These include ending the turn, army setup, recruiting units, viewing mercenaries, and reading province chronicles.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the keyboard shortcut for ending the turn in Dominions 6?</question>
+<answer>The keyboard shortcut for ending the turn in Dominions 6 is (e).</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the purpose of the "Army setup" button in Dominions 6?</question>
+<answer>The "Army setup" button in Dominions 6, accessed with the shortcut (t), is where you can assign your units to commanders, change formations, and array your forces on the battlefield.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the "Army setup at destination" button differ from the regular "Army setup" in Dominions 6?</question>
+<answer>The "Army setup at destination" button in Dominions 6, accessed with the shortcut (y), shows commanders that will be present in the province next turn, rather than those currently present.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>When is the "Patrolling army setup" button particularly useful in Dominions 6?</question>
+<answer>The "Patrolling army setup" button, accessed with the shortcut (u), is particularly useful in fortified provinces as it shows only patrolling commanders.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you open the recruitment panel for a given nation in Dominions 6?</question>
+<answer>You can open the recruitment panel for a given nation in Dominions 6 by using the "Recruit unit" button, accessed with the shortcut (r). This shows the units available for recruitment in the selected province.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you view available mercenaries in Dominions 6?</question>
+<answer>You can view available mercenaries in Dominions 6 by using the "Mercenaries" button, accessed with the shortcut (b). You can bid on these by clicking on the name of the company you wish to bid on.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information can you read in the "Read Province Chronicles" section in Dominions 6?</question>
+<answer>In the "Read Province Chronicles" section, accessed with the shortcut (i), you can read information about the province and its inhabitants as well as all past important events that have occurred in the province.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What do the nation buttons in Dominions 6 control?</question>
+<answer>The nation buttons in Dominions 6 are not dependent on the current province and include actions like reading messages, sending messages, viewing the nation overview, score graphs, Hall of Fame, and the list of pretenders.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you access the screen to read beginning-of-turn messages in Dominions 6?</question>
+<answer>You can access the screen to read beginning-of-turn messages in Dominions 6 by using the "Read messages" button, accessed with the shortcut (m).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you send messages, items, or gold to other players in Dominions 6?</question>
+<answer>You can send messages, items, or gold to other players in Dominions 6 by using the "Send messages" button, accessed with the shortcut (s).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information does the "Nation Overview" screen provide in Dominions 6?</question>
+<answer>The "Nation Overview" screen, accessed with the shortcut (F1), provides a global picture of your units and provinces, allows you to buy province defense, and keeps track of magic site searches.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What can you view in the "Score graphs" section if it is enabled in Dominions 6?</question>
+<answer>If enabled, the "Score graphs" section, accessed with the shortcut (F2), allows you to see a running comparison of the strengths of various nations in terms of provinces owned, total dominion, army size, etc.</answer>
+<difficulty
+
+>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the "Hall of Fame" in Dominions 6?</question>
+<answer>The "Hall of Fame", accessed with the shortcut (F3), lists commanders who have survived the most fights and killed the most enemies, granting them a Heroic Ability that continues to improve as long as they are listed.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does the "Pretenders" screen display in Dominions 6?</question>
+<answer>The "Pretenders" screen, accessed with the shortcut (F4), displays a list of all pretenders in the game unless information on other players was disabled during game creation.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What functions do the magic buttons provide in Dominions 6?</question>
+<answer>The magic buttons in Dominions 6 provide access to the Research screen (F5), Global Enchantments (F6), Magic item treasury (F7), Magic item overview (F8), and Thrones of Ascension (F9).</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you access the Research screen in Dominions 6?</question>
+<answer>You can access the Research screen in Dominions 6 by using the "Research" button, accessed with the shortcut (F5).</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information can you find in the "Global Enchantments" screen in Dominions 6?</question>
+<answer>The "Global Enchantments" screen, accessed with the shortcut (F6), shows you the global enchantment spells currently affecting the world.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What can you see in the "Magic item treasury" screen in Dominions 6?</question>
+<answer>The "Magic item treasury" screen, accessed with the shortcut (F7), shows the magic items you have stored in your treasury.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the "Magic item overview" screen help you in Dominions 6?</question>
+<answer>The "Magic item overview" screen, accessed with the shortcut (F8), provides an easy way to see all magic items in your kingdom, both in the treasury and equipped on commanders, and learn their locations.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What information does the "Thrones of Ascension" screen provide in Dominions 6?</question>
+<answer>The "Thrones of Ascension" screen, accessed with the shortcut (F9), displays the Thrones of Ascension active in the game, if any.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What options are available in the "Options" button in Dominions 6?</question>
+<answer>The "Options" button, accessed with the shortcut (Esc), allows you to adjust music and video settings, save the game, and quit the game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What happens when you press the "End Turn" button in Dominions 6?</question>
+<answer>Pressing the "End Turn" button, accessed with the shortcut (e), saves your move to a file in the game folder or uploads it to the server if playing online. In a solo game, it automatically hosts the current turn.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the "plane buttons" used for in Dominions 6?</question>
+<answer>The plane buttons in Dominions 6 allow you to view different planes, such as the Pantokrator's realm, the realm beneath, and the void. These buttons are greyed out if you currently have no access to the respective plane.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you hide all buttons and commanders to view only the map in Dominions 6?</question>
+<answer>To hide all buttons and commanders in Dominions 6, press the "h" key. This makes only the map visible.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What do the yellow dotted lines on the map indicate in Dominions 6?</question>
+<answer>The yellow dotted lines on the map in Dominions 6 indicate neighboring provinces. They can be toggled on and off using the [Ctrl+8] key.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the keyboard shortcuts for scrolling the map and zooming in Dominions 6?</question>
+<answer>In Dominions 6, you can scroll the map using the arrow keys. To zoom in, use the Page Up or Ctrl+Up keys, and to zoom out, use the Page Down or Ctrl+Down keys.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "Ctrl+f" keyboard shortcut do in Dominions 6?</question>
+<answer>The "Ctrl+f" keyboard shortcut in Dominions 6 opens the map filter menu.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you toggle the display of province names in Dominions 6?</question>
+<answer>You can toggle the display of province names in Dominions 6 using the "Ctrl+9" keyboard shortcut.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the significance of the province attributes in Dominions 6?</question>
+<answer>Province attributes in Dominions 6 are important as they determine the province's contribution to the game, such as income, resources, supply, and magic sites. Attributes are visible in the province info box if you have scouted or control the province.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What information is shown at the top of the province info box in Dominions 6?</question>
+<answer>The top of the province info box in Dominions 6 shows the terrain type of the province, which is crucial for determining the province's value in terms of income, resources, supply, and magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does terrain affect movement in Dominions 6?</question>
+<answer>In Dominions 6, terrain can allow or restrict multi-province movement. For example, underwater provinces can only be entered by units with specific abilities like amphibian, aquatic, or water-breathing, and flying units cannot cross them.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What bonuses do farmland provinces typically provide in Dominions 6?</question>
+<answer>Farmland provinces in Dominions 6 typically have high population (and therefore high income) but low resources and few magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the typical attributes of mountain range provinces in Dominions 6?</question>
+<answer>Mountain range provinces in Dominions 6 typically provide excellent resources and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the river terrain impact provinces in Dominions 6?</question>
+<answer>The river terrain in Dominions 6 indicates an abundance of freshwater and applies to all lands adjacent to the river, contributing to the province's attributes.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What limitations do underwater provinces have in Dominions 6?</question>
+<answer>Underwater provinces in Dominions 6 cannot be entered by units without special abilities (e.g., amphibian, aquatic, or water-breathing), do not contribute resources to fortresses on land, and cannot be crossed by flying units.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can sailing units remain in water provinces at the end of a turn in Dominions 6?</question>
+<answer>No, in Dominions 6, units with the sailing ability can cross water provinces but cannot remain there at the end of a turn.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the population and resource attributes of swamp provinces in Dominions 6?</question>
+<answer>Swamp provinces in Dominions 6 typically have very low population but provide many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Which terrain type in Dominions 6 is known for extremely low population but abundant magic sites?</question>
+<answer>The wasteland terrain type in Dominions 6 is known for extremely low population
+
+ but abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the primary attributes of forest provinces in Dominions 6?</question>
+<answer>Forest provinces in Dominions 6 typically have low population, high resources, and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is a distinguishing feature of deep sea provinces in Dominions 6?</question>
+<answer>Deep sea provinces in Dominions 6 typically have very low population but high resources and many magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do cave terrains affect provinces in Dominions 6?</question>
+<answer>Cave terrains in Dominions 6 typically have low population and do not contribute resources, but may have various other attributes depending on the specific cave type.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of a gorge terrain in Dominions 6?</question>
+<answer>Gorge terrains in Dominions 6 typically have low population, high resources, and abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Which terrain type provides very high population but low resources and few magic sites in Dominions 6?</question>
+<answer>Farm terrain provides very high population but low resources and few magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do kelp forest terrains affect provinces in Dominions 6?</question>
+<answer>Kelp forest terrains in Dominions 6 typically have high population but do not contribute resources or magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the impact of drip cave terrains on provinces in Dominions 6?</question>
+<answer>Drip cave terrains in Dominions 6 typically provide excellent resources but do not contribute to population or magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the characteristics of crystal cave terrains in Dominions 6?</question>
+<answer>Crystal cave terrains in Dominions 6 typically have very low population, high resources, and abundant magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the forest cave terrain differ from regular forest terrain in Dominions 6?</question>
+<answer>Forest cave terrains in Dominions 6 typically have high population and many magic sites, unlike regular forests which have low population.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<pair>
+<question>What multiplayer modes are supported in Dominions 6?</question>
+<answer>Dominions 6 supports hotseat play (multiple players on the same computer), online play (using either a private server or the official server), and play-by-email (PBEM).</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How are turns resolved in multiplayer games in Dominions 6?</question>
+<answer>Turns in Dominions 6 are resolved simultaneously, allowing all players to complete their turns at their convenience. When all players have finished, a new turn is generated.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>How do you start a hotseat game in Dominions 6?</question>
+<answer>Starting a hotseat game in Dominions 6 is similar to starting a single-player game. You add extra human players when choosing the participants.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+<pair>
+<question>What is the easiest way to play Dominions 6 online?</question>
+<answer>The easiest way to play Dominions 6 online is to use the official game server. From the main menu, choose Network, and then Enter Game Lobby.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Why is it important to add a password to your pretender when playing Dominions 6 online?</question>
+<answer>It is important to add a password to your pretender when playing online to prevent other players from peeking at or altering your turns.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What additional options are available if you set up your own personal game server for Dominions 6?</question>
+<answer>Setting up your own personal game server for Dominions 6 allows for more customization and control, but it is more complicated than using the official game server. Detailed instructions for PBEM or private game servers can be found in the Dominions 5 manual.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>How do you view a different province in Dominions 6?</question>
+<answer>To view a different province, right-click on the province. This can be changed to left-click in the preferences if desired.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do you select a commander in Dominions 6?</question>
+<answer>To select a commander, left-click on his icon. The icon will turn white to indicate the commander is selected.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What information can you access by right-clicking on a unit in Dominions 6?</question>
+<answer>Right-clicking on a unit provides detailed information about the unit. This also applies to magic items and spells in various screens.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>What are the province buttons, and what do they do in Dominions 6?</question>
+<answer>The province buttons perform actions for the selected province only. They include:
+- End turn (e)
+- Army setup (t)
+- Army setup at destination (y)
+- Patrolling army setup (u)
+- Recruit unit (r)
+- Mercenaries (b)
+- Read Province Chronicles (i)</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What actions can be performed using the nation buttons in Dominions 6?</question>
+<answer>The nation buttons are not dependent on the current province. They include:
+- Read messages (m)
+- Send messages (s)
+- Nation Overview (F1)
+- Score graphs (F2)
+- Hall of Fame (F3)
+- Pretenders (F4)</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the magic buttons, and what do they control in Dominions 6?</question>
+<answer>The magic buttons include:
+- Research (F5)
+- Global Enchantments (F6)
+- Magic item treasury (F7)
+- Magic item overview (F8)
+- Thrones of Ascension (F9)</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What functions can be accessed using the game buttons in Dominions 6?</question>
+<answer>The game buttons allow you to change settings and end the turn. They include:
+- Options (Esc)
+- End Turn (e)</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the plane buttons in Dominions 6, and when are they active?</question>
+<answer>The plane buttons show different planes in the game, such as:
+- Pantokrator's realm (1)
+- The realm beneath (2)
+- The void (3)
+These buttons are greyed out if you currently have no access to the respective planes.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>How can you hide all buttons and commanders on the map screen in Dominions 6?</question>
+<answer>You can hide all buttons and commanders by pressing the "h" key, making only the map visible.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>What happens when you click the "End turn" button in a single-player game in Dominions 6?</question>
+<answer>In a single-player game, clicking the "End turn" button initiates the host procedure and processes the turn.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>How are provinces delineated on the map in Dominions 6?</question>
+<answer>Provinces on the map are delineated by greyish lines for visual reference. However, the important aspect is the neighboring provinces, shown by yellow dotted lines. These lines indicate the connections between neighboring provinces.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What does the "Ctrl+8" keyboard shortcut do in Dominions 6?</question>
+<answer>Pressing "Ctrl+8" toggles the display of neighbors on the map, showing the yellow dotted lines between neighboring provinces.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are some keyboard shortcuts to control the map view in Dominions 6?</question>
+<answer>Some keyboard shortcuts to control the map view include:
+- Arrows: scroll map
+- Home: go to home province
+- Ctrl+Home: go to Pretender/Disciple
+- g / #: goto province number
+- End: zoom x0.5
+- Insert: zoom to cover screen
+- Delete: zoom to fit entire map
+- Page Up / Ctrl+Up: zoom in
+- Page Down / Ctrl+Down: zoom out
+- Ctrl+f: map filter menu
+- Ctrl+1: toggle flags/forts
+- Ctrl+2: toggle armies
+- Ctrl+3: toggle dominion
+- Ctrl+4: toggle income box
+- Ctrl+5: toggle thrones & events
+- Ctrl+6: toggle my troops in allied provinces
+- Ctrl+7: toggle allied troops in my provinces
+- Ctrl+8: toggle neighbors
+- Ctrl+9: toggle province names
+- Ctrl+0: toggle remote rituals</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>What information is displayed when a province is selected in Dominions 6?</question>
+<answer>When a province is selected, its attributes are shown in a box on the right side of the screen. This includes terrain, population, income, resources, recruitment points, dominion, unrest, supplies, defense, corpses, and dominion scales. The amount of information available depends on your dominion influence, scouting, and proximity to friendly provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does terrain affect a province's attributes in Dominions 6?</question>
+<answer>Terrain affects a province's income, resources, supply, and magic sites. For example, farmland has high population and income but low resources and few magic sites, while highlands have low population, high resources, and many magic sites. Multiple terrains in a province add up their bonuses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+
+
+<pair>
+<question>How is the income of a province calculated in Dominions 6?</question>
+<answer>Income in a province is determined by population, dominion scales, fortress administration, and unrest. The formula is:
+Final Income = (Population / 100) * (dominion scale modifiers) * (1 + fort administration / 200) / (1 + (unrest * 0.02)).
+If a province cannot trace an unbroken line of friendly provinces back to a friendly fort, it does not produce income that turn.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to resources in a province with high unrest in Dominions 6?</question>
+<answer>Resources in a province are reduced by unrest. The formula is:
+Final Resources = Resources / (1 + unrest * 0.01).
+An unrest level of 100 means a province produces only half of its normal resources. No units may be recruited in a province with an unrest level of 100 or greater.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the base recruitment points for a province with 0 population in Dominions 6?</question>
+<answer>A province with 0 population generates 20 recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are recruitment points calculated for a province with a population between 1 and 5,000 in Dominions 6?</question>
+<answer>For a population between 1 and 5,000, recruitment points are calculated as population divided by 100 (pop/100).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are recruitment points calculated for a province with a population between 5,001 and 10,000 in Dominions 6?</question>
+<answer>For a population between 5,001 and 10,000, recruitment points are calculated as population divided by 200 (pop/200).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are recruitment points calculated for a province with a population between 10,001 and 20,000 in Dominions 6?</question>
+<answer>For a population between 10,001 and 20,000, recruitment points are calculated as population divided by 300 (pop/300).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are recruitment points calculated for a province with a population between 20,001 and 40,000 in Dominions 6?</question>
+<answer>For a population between 20,001 and 40,000, recruitment points are calculated as population divided by 400 (pop/400).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are recruitment points calculated for a province with a population over 40,000 in Dominions 6?</question>
+<answer>For a population over 40,000, recruitment points are calculated as population divided by 500 (pop/500).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What bonus do forts provide to recruitment points in Dominions 6?</question>
+<answer>Forts provide a bonus to recruitment points, for example, palisades add a +50% bonus to recruitment points.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do order scales affect recruitment points in Dominions 6?</question>
+<answer>Order scales affect recruitment points by +10% per step in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<question>How is dominion represented in a province in Dominions 6?</question>
+<answer>Dominion in a province is represented by candles. Positive dominion is your dominion (white candles), while negative dominion is someone else's dominion (black candles). A priest in a province with hostile dominion will know whose dominion it is.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does the capsule screen display in Dominions 6?</question>
+<answer>The capsule screen displays income, resources, and dominion in a province. It can be toggled on and off by pressing "Ctrl-4". Hammers (resources) and standards (recruitment) become progressively greyed out as they are allocated for production during a turn.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does unrest affect a province in Dominions 6?</question>
+<answer>Unrest reduces both income and resources in a province. It can be raised by random events, enemy spies, blood hunting, magic sites, certain spells, or global enchantments. Unrest can be reduced by patrolling, province defense, order scales, magic sites, or random events. High unrest also negatively affects the chances of capturing blood slaves or finding stealthy units by patrolling.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens when unrest reaches 100 in a province in Dominions 6?</question>
+<answer>When unrest reaches 100, it becomes impossible to recruit any units or commanders from that province. The maximum unrest level is 500 or one point per 10 population. When the population reaches zero, there can no longer be any unrest.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How is the supply rating of a province determined in Dominions 6?</question>
+<answer>The supply rating of a province depends on its population, dominion scales, and proximity to fortresses. The first 15,000 population generates 1 supply point per 30 population; additional population generates 1 supply point per 60 population. This is modified by Growth/Death and Heat/Cold scales. Fortress-based supply depends on the province's proximity to a fortress, calculated as (Administration * 6) / (Distance + 1).</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What occurs if supply usage exceeds supplies in a province in Dominions 6?</question>
+<answer>If supply usage exceeds supplies, starvation occurs. Starving units receive a -4 morale penalty and have a 5% chance of getting diseased, increasing to 50% if they are already starving. Diseased units take damage each month until they die. Starvation ends once there is no longer a lack of supplies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How is the provincial defense level raised in Dominions 6?</question>
+<answer>Provincial defense is raised by clicking on the word "Defense" in the main province screen or using the shortcut key [d]. The cost is equal to the new level purchased. Additional benefits are gained at levels 10, 15, and 20. The first level of defense is free and has no upkeep costs.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are corpses used for in Dominions 6, and how can you see their number in a province?</question>
+<answer>Corpses are important for some spells (e.g., Raven Feast) and for raising undead. The number of corpses can be seen if you have a death mage, an undead priest, or normal priests who can reanimate undead in the province.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+<pair>
+<question>What information is displayed in the national summary in Dominions 6?</question>
+<answer>The national summary displays the name of your pretender god, the total amount of money in your treasury, total income, and upkeep costs. It also shows the current season and turn number. Pressing the Treasury button shows a list of all gold spent so far this turn, while the Income button shows all income and upkeep costs.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What should you do to effectively use the game interface in Dominions 6?</question>
+<answer>To effectively use the game interface in Dominions 6, familiarize yourself with the various buttons and shortcuts for provinces, nations, magic, and game functions. Customize preferences to suit your play style, and use keyboard shortcuts to streamline map navigation and game management.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you manage recruitment and resources efficiently in Dominions 6?</question>
+<answer>To manage recruitment and resources efficiently, align your recruitment strategies with the available resources and population in each province. Utilize fort bonuses and order scales to maximize recruitment points, and ensure low unrest levels to maintain high resource production.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Why is it important to understand the province attributes in Dominions 6?</question>
+<answer>Understanding province attributes is crucial for strategic planning and expansion. Knowing how terrain, population, income, resources, recruitment points, dominion, unrest, supplies, and defense affect a province helps in prioritizing targets, managing resources, and optimizing overall gameplay.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are some strategies for reducing unrest in Dominions 6?</question>
+<answer>Strategies for reducing unrest include patrolling with commanders, increasing province defense, improving order scales, utilizing specific magic sites, and responding to random events that reduce unrest. Keeping unrest low is essential for maintaining high income and resource production.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can players use dominion to their advantage in Dominions 6?</question>
+<answer>Players can use dominion to their advantage by spreading their dominion to influence provinces, increasing their religious dominance, and leveraging dominion effects. Priests can preach to spread dominion, and players can build temples to reinforce their presence and gain strategic advantages.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+### Terrain Type Bonuses in Dominions 6
+
+<pair>
+<question>What are the bonuses for plains terrain in Dominions 6?</question>
+<answer>Plains terrain has no bonuses in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for mountain ranges in Dominions 6?</question>
+<answer>Mountain ranges provide excellent resources and many magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for forest terrain in Dominions 6?</question>
+<answer>Forest terrain has low population, high resources, and many magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for highlands terrain in Dominions 6?</question>
+<answer>Highlands terrain has low population and high resources in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for swamp terrain in Dominions 6?</question>
+<answer>Swamp terrain has very low population and many magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for waste terrain in Dominions 6?</question>
+<answer>Waste terrain has extremely low population and abundant magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for farm terrain in Dominions 6?</question>
+<answer>Farm terrain has very high population, low resources, and few magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for river terrain in Dominions 6?</question>
+<answer>River terrain has high population in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for sea terrain in Dominions 6?</question>
+<answer>Sea terrain has low population in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for deep sea terrain in Dominions 6?</question>
+<answer>Deep sea terrain has very low population, high resources, and many magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for kelp forest terrain in Dominions 6?</question>
+<answer>Kelp forest terrain has high population in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for gorge terrain in Dominions 6?</question>
+<answer>Gorge terrain has low population, high resources, and abundant magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for cave terrain in Dominions 6?</question>
+<answer>Cave terrain has low population in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for drip cave terrain in Dominions 6?</question>
+<answer>Drip cave terrain has excellent resources in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for crystal cave terrain in Dominions 6?</question>
+<answer>Crystal cave terrain has very low population, high resources, and abundant magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the bonuses for forest cave terrain in Dominions 6?</question>
+<answer>Forest cave terrain has high population and many magic sites in Dominions 6.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+</qa_pairs>

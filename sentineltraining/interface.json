@@ -1,0 +1,1194 @@
+<qa_pairs>
+<pair>
+<question>What is the first step in starting a new game in Dominions 6?</question>
+<answer>The first step in starting a new game in Dominions 6 is to create it under the "Create World" option from the opening menu screen.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you continue a game you have already created in Dominions 6?</question>
+<answer>To continue a game you have already created, choose "Continue Old Game" from the main menu and select the appropriate game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What options are available when choosing a map for a new game in Dominions 6?</question>
+<answer>You can choose either a pre-made map or a randomly created one when starting a new game in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do you save the name of a new game you are creating in Dominions 6?</question>
+<answer>When creating a new game, you give it a name, which generates a folder with that name in the "savedgames" folder, making it easy to find the game files later.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Where can you access the saved game files in Dominions 6?</question>
+<answer>You can access the saved game files from the Tools & Manuals menu under Other / Open User Data Directory.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the three ages available in Dominions 6, and what do they affect?</question>
+<answer>The three ages available in Dominions 6 are the Early Age, Middle Age, and Late Age. They determine the nations available in the game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do Early Age nations generally differ from those of the Middle and Late Ages?</question>
+<answer>Early Age nations generally have weaker troops and stronger mages compared to those in the Middle and Late Ages.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you select a specific nation for yourself or AI players in Dominions 6?</question>
+<answer>To select a specific nation, click on the word "Random" in the Choose Participants menu, which opens a window listing the available nations. Click on the desired nation to select it.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Can nations be duplicated in a single game of Dominions 6?</question>
+<answer>No, nations cannot be duplicated in a single game of Dominions 6. There can only be one of each nation in a given game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you add or remove players in Dominions 6?</question>
+<answer>To add a new player (AI or human), click on "Add new player." To remove a player, click on the name of the nation (or "Random" if no nation is set) and select "None" from the bottom of the list of nations.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is a Disciple Game in Dominions 6?</question>
+<answer>A Disciple Game is a special team game where one player is the pretender and other players on the team are disciples. The disciples support the pretender god but there can only be one god in the end.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What changes in the game interface when you check the "Disciple Game" checkbox in the Choose Participants screen?</question>
+<answer>When you check the "Disciple Game" checkbox, two additional columns appear: one for Team and one for pretender/disciple. You must assign one pretender per team and can add any number of disciples.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How many points does a player have to create a disciple in a Disciple Game?</question>
+<answer>A player has 400 points to create a disciple, instead of the usual 450 points for creating a pretender.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are some limitations of disciples compared to pretenders in a Disciple Game?</question>
+<answer>Disciples have no dominion or scales, cannot choose whether they are awake or not at the start, and awaken in half the time of the pretender god. They can only choose physical form and magic paths.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do disciple units spread dominion in a Disciple Game?</question>
+<answer>Disciple units spread the dominion of their pretender god through their temples and as prophet equivalents, which means they act as if they were performing one temple check.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can prophets be appointed in a Disciple Game?</question>
+<answer>No, prophets cannot be appointed in a Disciple Game because disciple units act as prophets. Prophets can only be appointed by pretenders without disciples.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the purpose of creating a pretender in Dominions 6?</question>
+<answer>The purpose of creating a pretender in Dominions 6 is to have a Pretender God in charge of your nation, which may capture enough Thrones of Ascension to achieve full godhood.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can pretenders be saved for future use in Dominions 6?</question>
+<answer>Pretenders can be saved by pressing ctrl-s during the creation process. They can be loaded into other games later by pressing ctrl-l in the pretender creation screen.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What tool is available in Dominions 6 to create and save pretenders outside of game creation?</question>
+<answer>The Game Tools menu includes a pretender creation tool that allows you to create and save pretenders for future games.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What options are available in the game settings menu of Dominions 6?</question>
+<answer>The game settings menu allows players to adjust options such as the availability of gold, frequency of magic sites, strength of independents, and many other settings that give the game a unique character.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the independent strength setting affect gameplay in Dominions 6?</question>
+<answer>Increasing the independent strength setting will slow down players' expansion by requiring larger armies to conquer adjacent provinces, thus prolonging the time before enemy nations come into contact.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What impact does increasing magic settings have on different nations in Dominions 6?</question>
+<answer>Increasing magic settings (either sites or research) will benefit nations with strong magic capabilities, allowing them to use more powerful magic faster, while it may disadvantage nations with weak magic.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are score graphs in Dominions 6 and how do they affect multiplayer games?</question>
+<answer>Score graphs display information on various metrics like the number of provinces and army size. In multiplayer games, they can change the dynamics as players watch for threats and adjust their strategies accordingly.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why might solo players, especially newbies, find score graphs useful in Dominions 6?</question>
+<answer>Solo players might find score graphs useful for gauging their progress and evaluating threats, making it easier to understand their position in the game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the purpose of limiting unique artifact forging rate in Dominions 6?</question>
+<answer>This setting limits players to forging a maximum of one unique artifact per game turn, making artifact construction meaningful even for players with slower research rates.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does the limited legendary spell research rate setting do in Dominions 6?</question>
+<answer>This setting makes level 9 an epic research level where players can only research one legendary spell at a time. Players must choose carefully which spell to research first.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the master password feature in Dominions 6 used for?</question>
+<answer>The master password allows the host to set a player's position to computer control if a player drops out of the game. It also allows full access to a player's position, so it should be used carefully.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does cheat prevention do in Dominions 6?</question>
+<answer>Cheat prevention tries to prevent players from cheating and sends messages to all players if someone is found doing something against the game rules. It does not protect against host cheating.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are victory conditions set in Dominions 6 using the Thrones tab?</question>
+<answer>Victory conditions can be set using the Thrones tab, where players can set the number of Thrones of Ascension required to win. This can be changed from the default setting to "Conquer all" if preferred.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the Cataclysm in Dominions 6 and how does it force the game to end?</question>
+<answer>The Cataclysm is a game-ending event where powerful horrors appear and start destroying Thrones of Ascension. The number of Ascension points required to win is reduced as Thrones are destroyed, leading to a winner shortly after the Cataclysm begins.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the magic scale change during the Cataclysm in Dominions 6?</question>
+<answer>During the Cataclysm, the magic scale rises and the magic ether becomes corrupted. This can cause horrors to sense and attack mages who perform rituals, forge magic items, or empower themselves using many gems.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What tools are available under the Game Tools menu in Dominions 6?</question>
+<answer>The Game Tools menu includes options to create new pretenders, manage existing pretenders, create random maps with custom settings, and access the directory where Dominions 6 stores your files.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What multiplayer options does Dominions 6 support?</question>
+<answer>Dominions 6 supports multiplayer through hotseat play, online play via a private or official server, and play-by-email (PBEM).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does simultaneous turn resolution benefit multiplayer games in Dominions 6?</question>
+<answer>Simultaneous turn resolution allows all players to complete their turns at their own pace, and once everyone is finished, a new turn is generated. This makes multiplayer gameplay smoother and more efficient.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What should you do to start a hotseat game in Dominions 6?</question>
+<answer>To start a hotseat game, add extra human players when choosing the participants during the game setup.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you play an online game using the official server in Dominions 6?</question>
+<answer>To play an online game using the official server, choose "Network" from the main menu, then "Enter Game Lobby" to set up or join a game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is a crucial step to secure your pretender when playing online in Dominions 6?</question>
+<answer>It is crucial to add a password to your pretender when playing online to prevent others from peeking at or altering your turns.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What general rule should you follow for selecting a different province in Dominions 6?</question>
+<answer>To view a different province, right-click on the province on the map screen. This can be changed to left-click in the preferences if desired.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you select and move a commander in Dominions 6?</question>
+<answer>To select a commander, left-click on his icon, which turns white when selected. To move the commander, left-click on the destination province.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does right-clicking usually do in Dominions 6?</question>
+<answer>Right-clicking in Dominions 6 usually gives further information about units, magic items, spells, or other game elements.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is displayed at the top right of the map screen in Dominions 6?</question>
+<answer>The top right of the map screen displays a row of buttons used for various game functions, divided into five sections.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Why is it important to customize game settings in Dominions 6?</question>
+<answer>Customizing game settings in Dominions 6 allows players to tailor the game to their preferences, affecting gameplay dynamics such as the availability of gold, the strength of independents, and the frequency of magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What must each team have in a Disciple Game for the "Ok" button to be clickable?</question>
+<answer>In a Disciple Game, each team must have one and only one pretender for the "Ok" button to be clickable. There is no requirement for balance among teams or having equal numbers of disciples.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to disciples' units in their pretender god's dominion?</question>
+<answer>In their pretender god's dominion, disciple units receive increases in strength, hit points, and magic resistance, similar to prophets.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What should you do if a player drops out of a multiplayer game and you have set a master password?</question>
+<answer>If a player drops out of a multiplayer game and you have set a master password, you can set that player's position to computer control to preserve the flow of the game.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Why is it recommended to set a master password or collect all player passwords in large multiplayer games?</question>
+<answer>Setting a master password or collecting all player passwords ensures that the game can continue smoothly if a player becomes unreachable, as the host or a third party can set the player's position to computer control.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the impact of the Cataclysm on the magic ether in Dominions 6?</question>
+<answer>The Cataclysm causes the magic ether to become corrupted, increasing the chance that horrors will sense and attack mages performing rituals, forging magic items, or empowering themselves with many gems.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you create new maps in Dominions 6?</question>
+<answer>You can create new maps using the map editor tool available in the Game Tools menu, which allows for custom settings and random map generation.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "None" option do when selecting nations for players in Dominions 6?</question>
+<answer>The "None" option removes a player from the game. Click on the nation's name (or "Random" if no nation is set) and select "None" to remove that player.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you adjust the independent strength setting in Dominions 6?</question>
+<answer>You can adjust the independent strength setting in the game settings menu. This affects how difficult it is to conquer adjacent provinces, influencing the pace of expansion and player interactions.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is a primary objective in multiplayer games with score graphs on in Dominions 6?</question>
+<answer>In multiplayer games with score graphs on, the primary objective is often to avoid being the leader in any major category while not falling too far behind, to avoid becoming a target for other players.</answer>
+<difficulty>Medium</difficulty>
+<category>Strategy</category>
+</pair>
+
+<pair>
+<question>How can spies affect score graphs in Dominions 6?</question>
+<answer>Units with the Spy ability can access score graphs even if they are disabled, but they can only get information on enemy players if they are in the enemy capital.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does Dominions 6 handle unique artifact forging and legendary spell research at level 9?</question>
+<answer>Dominions 6 limits unique artifact forging to one per game turn and makes level 9 an epic research level where players can only research one legendary spell at a time, choosing which one to research first.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens if no one owns a Throne when the last ones are destroyed during the Cataclysm?</question>
+<answer>If no one owns a Throne when the last ones are destroyed during the Cataclysm, the horrors win the game.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the primary goal of the pretender in Dominions 6?</question>
+<answer>The primary goal of the pretender in Dominions 6 is to capture enough Thrones of Ascension to acquire full godhood.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+</qa_pairs>
+
+<qa_pairs>
+<pair>
+<question>How do you begin creating a new game in Dominions 6?</question>
+<answer>To begin creating a new game in Dominions 6, click on "Create World" in the opening menu screen.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What options do you have for choosing a map when creating a new game in Dominions 6?</question>
+<answer>You can choose a pre-made map or a randomly created one when creating a new game in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What step follows selecting a map when creating a new game in Dominions 6?</question>
+<answer>After selecting a map, you must give the game a name, which generates a folder with this name in the "savedgames" folder.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you access the saved game files in Dominions 6?</question>
+<answer>You can access the saved game files from the Tools & Manuals menu under Other / Open User Data Directory.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What do you need to do to continue playing a game you previously created in Dominions 6?</question>
+<answer>To continue playing a game you previously created, select "Continue Old Game" from the main menu and choose the appropriate game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the three ages you can choose from in Dominions 6?</question>
+<answer>The three ages in Dominions 6 are the Early Age, Middle Age, and Late Age.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is a general characteristic of Early Age nations in Dominions 6?</question>
+<answer>Early Age nations generally have weaker troops and stronger mages compared to nations in the Middle and Late Ages.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you select a specific nation for yourself or AI players in Dominions 6?</question>
+<answer>To select a specific nation, click on the word "Random" in the Choose Participants menu, which opens a window listing the available nations. Then click on the nation you desire.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Is it possible to have multiple instances of the same nation in a single game of Dominions 6?</question>
+<answer>No, nations cannot be duplicated in a single game. There can only be one of each nation in a given game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you add a new player (either AI or human) in Dominions 6?</question>
+<answer>To add a new player, click on "Add new player" in the Choose Participants menu.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What option allows you to remove a player from the game in Dominions 6?</question>
+<answer>To remove a player from the game, click on the name of the nation (or "Random" if you have not set a nation) and select "None" at the bottom of the list of nations.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is a Disciple Game in Dominions 6?</question>
+<answer>A Disciple Game is a special team game where one player is the pretender and other players on the team are disciples. The disciples support the pretender god, but only one god can prevail in the end.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What changes in the interface when you select a Disciple Game in Dominions 6?</question>
+<answer>When you select a Disciple Game, two additional columns appear: one for Team and one for pretender/disciple. You must assign one pretender per team and can add any number of disciples.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How many points does a player have to create a disciple in a Disciple Game?</question>
+<answer>A player has 400 points to create a disciple, compared to the usual 450 points for creating a pretender.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are some limitations of disciples in Dominions 6 compared to pretenders?</question>
+<answer>Disciples have no dominion or scales, cannot choose whether they are awake or not at the start, and awaken in half the time of the pretender god. They can only choose physical form and magic paths.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do disciple units spread dominion in Dominions 6?</question>
+<answer>Disciple units spread the dominion of their pretender god through their temples and as prophet equivalents, acting as if performing one temple check.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can prophets be appointed in a Disciple Game?</question>
+<answer>No, prophets cannot be appointed in a Disciple Game because disciple units act as prophets. Only pretenders without disciples can appoint prophets.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the goal of creating a pretender in Dominions 6?</question>
+<answer>The goal of creating a pretender is to have a Pretender God in charge of your nation, potentially capturing enough Thrones of Ascension to achieve full godhood.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How can you save a pretender for future use in Dominions 6?</question>
+<answer>You can save a pretender by pressing ctrl-s during the creation process. It can be loaded into other games later by pressing ctrl-l in the pretender creation screen.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What tool in Dominions 6 allows for pretender creation outside of game setup?</question>
+<answer>The Game Tools menu includes a pretender creation tool that allows players to create and save pretenders for future games.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What options can be customized in the game settings menu of Dominions 6?</question>
+<answer>The game settings menu allows customization of options like gold availability, frequency of magic sites, strength of independents, and other settings to create a unique gameplay experience.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What effect does increasing the independent strength setting have on gameplay in Dominions 6?</question>
+<answer>Increasing the independent strength setting will slow player expansion by requiring larger armies to conquer adjacent provinces, delaying contact between enemy nations.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does increasing the magic settings impact different nations in Dominions 6?</question>
+<answer>Increasing magic settings benefits nations with strong magic capabilities, allowing them to use powerful magic sooner, while it may disadvantage nations with weaker magic.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are score graphs in Dominions 6, and how do they affect multiplayer gameplay?</question>
+<answer>Score graphs display metrics such as the number of provinces and army size. In multiplayer games, they can shift strategies as players monitor each other’s strengths and adjust their plans accordingly.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why might score graphs be useful for solo players, especially beginners, in Dominions 6?</question>
+<answer>Score graphs can help solo players, particularly beginners, gauge their progress and evaluate threats, providing a clearer understanding of their standing in the game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Why is the unique artifact forging rate limited in Dominions 6?</question>
+<answer>This limitation, set to one unique artifact per game turn, ensures that artifact construction is meaningful even for players with slower research rates.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What does the limited legendary spell research rate setting do in Dominions 6?</question>
+<answer>This setting makes level 9 an epic research level where players can only research one legendary spell at a time, requiring careful choice of which spell to research first.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the purpose of the master password feature in Dominions 6?</question>
+<answer>The master password allows the host to set a player’s position to computer control if a player drops out, ensuring game continuity. It also grants full access to the player’s position, so it must be used carefully.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does cheat prevention work in Dominions 6?</question>
+<answer>Cheat prevention detects and reports rule violations by players, excluding the host who has full access to the game and must be trusted not to cheat.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How are victory conditions set in Dominions 6 using the Thrones tab?</question>
+<answer>Victory conditions are set using the Thrones tab, where players can determine the number of Thrones of Ascension required to win or choose a “Conquer all” setting for total domination.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the Cataclysm in Dominions 6 and how does it force the game to end?</question>
+<answer>The Cataclysm triggers powerful horrors to appear and destroy Thrones of Ascension, reducing the Ascension points required to win. This leads to a winner shortly after the Cataclysm begins.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to the magic ether during the Cataclysm in Dominions 6?</question>
+<answer>During the Cataclysm, the magic ether becomes corrupted, increasing the likelihood of horrors sensing and attacking mages performing rituals, forging magic items, or empowering themselves with many gems.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What tools are available under the Game Tools menu in Dominions 6?</question>
+<answer>The Game Tools menu includes options for creating new pretenders, managing existing pretenders, generating random maps with custom settings, and accessing the file storage directory.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What multiplayer options does Dominions 6 support?</question>
+<answer>Dominions 6 supports multiplayer through hotseat play, online play via private or official servers, and play-by-email (PBEM).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does simultaneous turn resolution benefit multiplayer games in Dominions 6?</question>
+<answer>Simultaneous turn resolution allows all players to complete their turns at their own pace, and once everyone is finished, a new turn is generated, making multiplayer gameplay smoother and more efficient.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do you start a hotseat game in Dominions 6?</question>
+<answer>To start a hotseat game, add extra human players when choosing the participants during the game setup.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How can you play an online game using the official server in Dominions 6?</question>
+<answer>To play an online game using the official server, choose "Network" from the main menu, then "Enter Game Lobby" to set up or join a game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What must you do to secure your pretender when playing online in Dominions 6?</question>
+<answer>To secure your pretender, add a password when playing online to prevent others from peeking at or altering your turns.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you view a different province in Dominions 6?</question>
+<answer>To view a different province, right-click on the province on the map screen. This can be changed to left-click in the preferences if desired.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you select and move a commander in Dominions 6?</question>
+<answer>To select a commander, left-click on his icon, which turns white when selected. To move the commander, left-click on the destination province.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does right-clicking usually do in Dominions 6?</question>
+<answer>Right-clicking in Dominions 6 usually provides further information about units, magic items, spells, or other game elements.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is displayed at the top right of the map screen in Dominions 6?</question>
+<answer>The top right of the map screen displays a row of buttons used for various game functions, divided into five sections.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Why is customizing game settings important in Dominions 6?</question>
+<answer>Customizing game settings allows players to tailor the game to their preferences, affecting gameplay dynamics such as gold availability, strength of independents, and frequency of magic sites.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What must each team have in a Disciple Game for the "Ok" button to be clickable?</question>
+<answer>In a Disciple Game, each team must have one and only one pretender for the "Ok" button to be clickable. Balance among teams or equal numbers of disciples are not required.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to disciple units in their pretender god's dominion?</question>
+<answer>In their pretender god's dominion, disciple units receive increases in strength, hit points, and magic resistance, similar to prophets.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What should you do if a player drops out of a multiplayer game and you have set a master password?</question>
+<answer>If a player drops out and you have set a master password, you can set the player’s position to computer control to preserve the game flow.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Why is it recommended to set a master password or collect all player passwords in large multiplayer games?</question>
+<answer>Setting a master password or collecting player passwords ensures that the game can continue if a player becomes unreachable, as the host or a third party can set the player's position to computer control.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the impact of the Cataclysm on the magic ether in Dominions 6?</question>
+<answer>The Cataclysm causes the magic ether to become corrupted, increasing the chance of horrors sensing and attacking mages performing rituals, forging magic items, or empowering themselves with many gems.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you create new maps in Dominions 6?</question>
+<answer>You can create new maps using the map editor tool available in the Game Tools menu, allowing for custom settings and random map generation.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "None" option do when selecting nations for players in Dominions 6?</question>
+<answer>The "None" option removes a player from the game. Click on the nation’s name (or "Random" if no nation is set) and select "None" to remove that player.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do you adjust the independent strength setting in Dominions 6?</question>
+<answer>You can adjust the independent strength setting in the game settings menu, affecting how difficult it is to conquer adjacent provinces and the pace of expansion.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is a primary objective in multiplayer games with score graphs on in Dominions 6?</question>
+<answer>In multiplayer games with score graphs on, the primary objective is often to avoid being the leader in any major category while not falling too far behind, to avoid becoming a target for other players.</answer>
+<difficulty>Medium</difficulty>
+<category>Strategy</category>
+</pair>
+
+<pair>
+<question>How can spies affect score graphs in Dominions 6?</question>
+<answer>Units with the Spy ability can access score graphs even if they are disabled, but they can only get information on enemy players if they are in the enemy capital.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does Dominions 6 handle unique artifact forging and legendary spell research at level 9?</question>
+<answer>Dominions 6 limits unique artifact forging to one per game turn and makes level 9 an epic research level where players can only research one legendary spell at a time, requiring careful selection.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens if no one owns a Throne when the last ones are destroyed during the Cataclysm?</question>
+<answer>If no one owns a Throne when the last ones are destroyed during the Cataclysm, the horrors win the game.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the primary goal of the pretender in Dominions 6?</question>
+<answer>The primary goal of the pretender is to capture enough Thrones of Ascension to achieve full godhood.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+</qa_pairs>
+
+Here are 50 question-answer pairs based on the provided page from the Dominions 6 manual.
+
+<qa_pairs>
+<pair>
+<question>What are the two main actions you can take in Dominions 6 from the main menu regarding game progress?</question>
+<answer>The two main actions are "Create World" to start a new game and "Continue Old Game" to resume a previously created game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do you create a new game in Dominions 6?</question>
+<answer>To create a new game, click on "Create World" in the opening menu screen. You will be prompted to choose a map and give the game a name. This generates a folder with this name in the "savedgames" folder for easy access.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the significance of giving a game a name when creating a new game?</question>
+<answer>Giving a game a name generates a folder with that name in the "savedgames" folder, making it easier to locate and manage game files.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Where can you find the folder for your saved games in Dominions 6?</question>
+<answer>You can access the folder for your saved games from the Tools & Manuals menu under Other / Open User Data Directory.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the three ages you can choose from when starting a new game in Dominions 6, and how do they generally differ?</question>
+<answer>The three ages are the Early, Middle, and Late Ages. Early Age nations generally have weaker troops and stronger mages.</answer>
+<difficulty>Medium</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do you select a specific nation for a player or AI in Dominions 6?</question>
+<answer>To select a specific nation, click on the word "Random" in the Choose Participants screen, which will open a window listing the available nations for that Age. Click on the desired nation to select it.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can nations be duplicated in a single game of Dominions 6?</question>
+<answer>No, nations cannot be duplicated; there can only be one of each nation in a given game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do you add or remove a player in the participant selection screen of Dominions 6?</question>
+<answer>To add a player, click on "Add new player." To remove a player, click on the name of the nation (or on "Random" if a nation is not set) and then click on the word "None" at the bottom of the list of nations.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is a Disciple Game in Dominions 6?</question>
+<answer>A Disciple Game is a team game where one player acts as the pretender god, and other players on the team act as disciples. Disciples do not create pretenders; they create disciples with fewer creation points and no dominion or scales.</answer>
+<difficulty>Hard</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What additional columns appear when you check the "Disciple Game" checkbox, and what do they indicate?</question>
+<answer>When you check the "Disciple Game" checkbox, two additional columns appear: one for Team and one for pretender/disciple status.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the requirements for starting a Disciple Game in Dominions 6?</question>
+<answer>To start a Disciple Game, each team must have one and only one pretender, and any number of disciples. The "Ok" button will be greyed out until these requirements are met.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does a disciple unit function differently from a pretender in Dominions 6?</question>
+<answer>Disciples have 400 points to create their unit, compared to 450 for pretenders. They have no dominion or scales and only choose physical form and magic paths. Disciples awaken in half the time of the pretender god and spread the dominion of their pretender god as prophets.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the role of temples in Disciple Games?</question>
+<answer>In Disciple Games, the temples of disciple players spread the dominion of their pretender god. The disciple unit itself also spreads dominion as a prophet, equivalent to one temple check.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can prophets be appointed in Disciple Games?</question>
+<answer>No, prophets cannot be appointed in Disciple Games. Disciples act as prophets, and only pretenders without disciples can appoint prophets.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can you save and load pretenders in Dominions 6?</question>
+<answer>Pretenders created during the game can be saved by pressing ctrl-s. They can be loaded into other games later by pressing ctrl-l in the pretender creation screen. There is also a pretender creation tool in the Game Tools menu for creating and saving pretenders for future games.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What types of game settings can players adjust in Dominions 6?</question>
+<answer>Players can adjust settings such as the availability of gold, the frequency of magic sites, the strength of independents, and various other options to give the game a unique character. These settings are largely up to the players' taste.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What impact does increasing independent strength have on the game in Dominions 6?</question>
+<answer>Increasing independent strength will slow players' expansion as they need to build larger armies to conquer adjacent provinces, prolonging the time before enemy nations come into contact.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does increasing the availability of magic affect gameplay in Dominions 6?</question>
+<answer>Increasing the availability of magic (either sites or research) will hurt nations with weak magic initially, as more magic-oriented nations will be able to start using more powerful magic faster.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are score graphs and how do they affect multiplayer gameplay in Dominions 6?</question>
+<answer>Score graphs display information on who has the most provinces, the biggest army, etc. In multiplayer, they can change the dynamics as players watch and react to these graphs, making scouting and diplomacy more important since it's not immediately obvious who has the largest army.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why might solo players, especially newbies, find score graphs useful in Dominions 6?</question>
+<answer>Solo players, especially newbies, might find score graphs useful for gauging their progress and evaluating threats to their position.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Can players access score graphs even if they are disabled, and how?</question>
+<answer>Yes, players with units that have the Spy ability can access score graphs even if they are disabled, but they can only get information on enemy players if they are in the enemy capital.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the purpose of setting a master password in Dominions 6 multiplayer games?</question>
+<answer>Setting a master password allows the host to set a player's position to computer control if a player drops out, preserving the flow of the game. It also allows full access to a player's position.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why is it important to password protect your Pretender God in online multiplayer games?</question>
+<answer>It is important to password protect your Pretender God in online multiplayer games to prevent other players from looking at or altering your turn.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "Limited unique artifact forging rate" setting do in Dominions 6?</question>
+<answer>This setting, which is on by default, limits players to forging a maximum of one unique artifact per game turn. Unique artifacts can only be forged once you have researched level 9 in Construction.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the effect of the "Limited legendary spell research rate" setting in Domin
+
+ions 6?</question>
+<answer>This setting, which is on by default, makes level 9 an epic research level where you can only research one spell at a time. You can choose which spell to research and can research level 9 multiple times to get all spells.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can commanders be renamed in Dominions 6, and if so, how?</question>
+<answer>By default, commanders cannot be renamed, but this can be changed with an option in the game settings. If renaming is enabled, you can rename any commander except Pretender Gods, Disciples, Prophets, and famous heroes by inspecting their stats and pressing 'r'.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the purpose of cheat prevention in Dominions 6 multiplayer games?</question>
+<answer>Cheat prevention tries to prevent players from cheating and sends messages to all players if someone is found doing something against the game rules. It only protects against players other than the host from cheating, as the host has full access to the game.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the recommended and default victory condition in Dominions 6?</question>
+<answer>The recommended and default victory condition is to win by controlling enough Thrones of Ascension. This can be changed to "Conquer all" if players prefer a game where they must eliminate all other players.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the Cataclysm in Dominions 6 and what effect does it have on the game?</question>
+<answer>The Cataclysm is a way to force the game to end after a certain number of turns. It causes powerful horrors to appear and start destroying Thrones of Ascension. Each Throne destroyed reduces the number of Ascension points required, leading to a winner shortly after the Cataclysm begins.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the Cataclysm affect the magic scale in Dominions 6?</question>
+<answer>During the Cataclysm, the magic scale rises, and the magic ether becomes corrupted. Casting rituals, forging magic items, or empowering can cause horrors to attack the mage, with the chance of a powerful horror appearing increasing with the number of gems used.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the three levels of Thrones in Dominions 6, and how do they differ?</question>
+<answer>There are three levels of Thrones: level 1, level 2, and level 3. A level 1 throne is worth 1 ascension point and is only marginally more well-guarded than an ordinary province. A level 3 throne is worth 3 ascension points and is very difficult to take.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can players set the total amount of Ascension Points required to win the game in Dominions 6?</question>
+<answer>Players can set the total amount of Ascension Points required to become the Pantokrator and win the game by adjusting the throne settings under the "Thrones" tab in the game settings.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What tools are available under the Game Tools menu in Dominions 6?</question>
+<answer>The Game Tools menu includes options for creating new pretenders, managing existing pretenders, a map editor, a tool for creating random maps with custom settings, and a shortcut to the directory where Dominions 6 stores your files.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the different ways to play multiplayer games in Dominions 6?</question>
+<answer>Multiplayer games can be played via hotseat (multiple players on the same computer), online (either with a private server or on the official server), or play-by-email (PBEM). If all other nations are AI, it is considered a solo game.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do you start a hotseat game in Dominions 6?</question>
+<answer>To start a hotseat game, add extra human players when choosing the participants during game setup. The process is the same as starting a single-player game.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the easiest way to play a network game in Dominions 6?</question>
+<answer>The easiest way to play a network game is to use the official game server for Dominions 6. Choose Network and then Enter Game Lobby from the main menu to set up or join a game.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why is it important to add a password to your pretender when playing online in Dominions 6?</question>
+<answer>Adding a password to your pretender is important because it prevents other players from peeking at or altering your turns.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What should you do if you want to set up your own personal game server for Dominions 6?</question>
+<answer>Setting up your own personal game server is possible but more complicated. Instructions for doing this can be found in the old Dominions 5 manual, which is available for free download on www.illwinter.com.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the main difference between game creation and game playing in Dominions 6?</question>
+<answer>Game creation involves setting up a new game under "Create World," while game playing involves continuing an already created game under "Continue Old Game."</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the first steps you must take when creating a new game in Dominions 6?</question>
+<answer>When creating a new game, you must click on "Create World" in the opening menu screen, choose a map, and give the game a name.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do you access the saved games folder in Dominions 6?</question>
+<answer>You can access the saved games folder from the Tools & Manuals menu under Other / Open User Data Directory.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the default settings for unique artifact forging and legendary spell research in Dominions 6?</question>
+<answer>The default setting limits players to forge a maximum of one unique artifact per game turn and makes level 9 an epic research level where only one spell can be researched at a time.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do disciple units awaken in comparison to pretender gods in Disciple Games?</question>
+<answer>Disciples awaken in half the time of the pretender god. Only awake gods start with awake disciples, as disciples cannot choose to be awake from the beginning of the game.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the purpose of the Thrones tab in the game settings of Dominions 6?</question>
+<answer>The Thrones tab allows players to set up the victory conditions, including the number of Thrones of Ascension required to win and other related settings.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens during the Cataclysm in Dominions 6 if no one owns a Throne when the last ones are destroyed?</question>
+<answer>If no one owns a Throne when the last ones are destroyed during the Cataclysm, the horrors win the game.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do you continue a game you have already created in Dominions 6?</question>
+<answer>To continue a game you have already created, choose "Continue Old Game" from the main menu and select the appropriate game.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the significance of the independent strength setting in Dominions 6?</question>
+<answer>The independent strength setting affects how difficult it is to conquer adjacent provinces. A high independent strength slows player expansion and prolongs the time before enemy nations come into contact.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Why is it recommended to use the official game server for online play in Dominions 6?</question>
+<answer>The official game server for online play is recommended because it simplifies the process of setting up and joining games, making it easier for players to play multiplayer games.</answer>
+<difficulty>Medium</difficulty>
+<category>Application</category>
+</
+
+pair>
+
+<pair>
+<question>How can a host handle a dropped player in Dominions 6 if the player's pretender is password-protected?</question>
+<answer>The host can use the master password to set the dropped player's position to computer control, preserving the flow of the game.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What advantage do disciple units gain when they are in their pretender god's dominion?</question>
+<answer>Disciple units gain increases in strength, hit points, and magic resistance when they are in their pretender god's dominion.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens if you enable the renaming option in Dominions 6?</question>
+<answer>If renaming is enabled, you can rename any commander except Pretender Gods, Disciples, Prophets, and famous heroes by inspecting their stats and pressing 'r'.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the primary use of the master password in Dominions 6?</question>
+<answer>The primary use of the master password is to allow the host to set a player's position to computer control if the player drops out, ensuring the game continues smoothly.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What should players do if they want to make gold more or less available in Dominions 6?</question>
+<answer>Players can adjust the availability of gold by changing the relevant setting in the game settings menu, which is described by tooltips when mousing over the different categories.</answer>
+<difficulty>Easy</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does cheat prevention function in Dominions 6?</question>
+<answer>Cheat prevention tries to prevent players from cheating and sends messages to all players if someone is found doing something against the game rules. It does not protect against the host cheating.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the Cataclysm affect ritual casting, magic item forging, and empowering in Dominions 6?</question>
+<answer>During the Cataclysm, casting rituals, forging magic items, or empowering can cause horrors to sense the mage and attack, with the likelihood of a powerful horror appearing increasing with the number of gems used.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the impact of score graphs on multiplayer gameplay in Dominions 6?</question>
+<answer>In multiplayer games, score graphs can change the dynamics as players react to the information on who has the most provinces, the biggest army, etc., making scouting and diplomacy more important.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What does the "Disciple Game" checkbox enable in Dominions 6?</question>
+<answer>Checking the "Disciple Game" checkbox enables a special team game mode where one player is the pretender god and other players are disciples with specific roles and limitations.</answer>
+<difficulty>Hard</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How can players gauge their progress and evaluate threats in solo games of Dominions 6?</question>
+<answer>Players can use score graphs to gauge their progress and evaluate threats in solo games, especially useful for newbies to understand their position and potential dangers.</answer>
+<difficulty>Easy</difficulty>
+<category>Application</category>
+</pair>
+</qa_pairs>

@@ -1,0 +1,364 @@
+{
+    "qaPairs": [
+        {
+            "question": "What is the Dominions Random Number (DRN) used in Dominions 6?",
+            "answer": "The Dominions Random Number (DRN) is a roll of two six-sided dice (2d6) with an additional rule: if any individual die roll is a \"6,\" one is subtracted, and then that die is re-rolled and added to the result. This open-ended 2d6 roll can occasionally lead to large numbers.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the \"open-ended\" 2d6 roll work in the DRN system?",
+            "answer": "If either of the two dice in the 2d6 roll lands on a 6, one is subtracted from the total, and that die is re-rolled and added to the result. This process repeats if the re-rolled die also lands on a 6, potentially leading to large numbers.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why was the Dominions Random Number (DRN) system created?",
+            "answer": "The DRN system was created to model the idea that very few things are actually impossible in the world of Dominions. It ensures that events that are very unlikely can still occur, which wouldn't be possible with a non-open-ended roll.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the difference between \"DRN\" and \"drn\" in the game?",
+            "answer": "While DRN refers to a roll of two six-sided dice with the open-ended rule, \"drn\" in lower-case letters refers to situations where only one six-sided die is rolled, but it is still open-ended.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How are probabilities calculated in Dominions 6 using the DRN system?",
+            "answer": "Probabilities in Dominions 6 are calculated by comparing the DRN rolls of one player against another. The game uses a table that shows the difference between two values and the chance of beating that value using two open-ended dice.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the chance of beating a value with a difference of 0 using two open-ended dice in Dominions 6?",
+            "answer": "The chance of beating a value with a difference of 0 using two open-ended dice in Dominions 6 is 46%.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the probability of a Jotun Moose Rider with an attack skill of 9 hitting an Abysian Infantry with a defense skill of 10?",
+            "answer": "The probability of a Jotun Moose Rider with an attack skill of 9 hitting an Abysian Infantry with a defense skill of 10 is 38% using the DRN system.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the \"zero-point\" affect the chance of beating an evenly matched opponent in Dominions 6?",
+            "answer": "The \"zero-point\" affects the chance of beating an evenly matched opponent because if the attack and defense skills are the same, you need to roll higher than your opponent on the same type of dice, resulting in a chance of success that is less than even, specifically 46%.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does a given effect requiring a morale check \"against\" some number mean in Dominions 6?",
+            "answer": "A given effect requiring a morale check \"against\" some number means that a unit's morale plus a DRN is compared to the stated number plus a DRN. For example, a morale check against 12 means comparing the unit's morale + DRN to 12 + DRN.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the chance of a unit with a morale of 10 passing a morale check against 12 in Dominions 6?",
+            "answer": "The chance of a unit with a morale of 10 passing a morale check against 12 in Dominions 6 is 30%.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What happens if both dice in a DRN roll come up as 6?",
+            "answer": "If both dice in a DRN roll come up as 6, both dice are re-rolled and added to the total after subtracting one from each. This process continues as long as the dice keep rolling 6s, potentially leading to very large numbers.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the significance of the open-ended nature of the DRN system in unlikely events?",
+            "answer": "The open-ended nature of the DRN system ensures that very unlikely events, such as a militia soldier hitting an ethereal monster, remain possible. This models the real world of Dominions, where few things are truly impossible.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How is a single six-sided die roll represented in the Dominions 6 manual?",
+            "answer": "A single six-sided die roll is represented as \"drn\" in lower-case letters, and it remains open-ended like the two-dice roll (DRN).",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the chance of success change with a difference of -5 in the DRN system?",
+            "answer": "With a difference of -5, the chance of success in the DRN system is 14%.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why does an evenly matched situation have a success chance of less than 50% in the DRN system?",
+            "answer": "An evenly matched situation has a success chance of less than 50% (46%) because the player needs to roll higher than the opponent on the same type of dice. Therefore, the chance of success is slightly less than even.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does a difference of 7 mean in terms of the chance of success in the DRN system?",
+            "answer": "A difference of 7 means there is an 89% chance of success in the DRN system.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the probability of beating a value with a difference of -3 using two open-ended dice?",
+            "answer": "The probability of beating a value with a difference of -3 using two open-ended dice is 24%.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Explain the concept of open-ended rolls in the context of the Dominions Random Number system.",
+            "answer": "In the context of the Dominions Random Number system, open-ended rolls mean that if a die rolls a 6, one is subtracted, and the die is re-rolled and added to the result. This process repeats if the re-rolled die also rolls a 6, potentially leading to very large numbers.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the open-ended nature of DRN affect the gameplay experience in Dominions 6?",
+            "answer": "The open-ended nature of DRN affects gameplay by allowing for very unlikely events to occur, such as a weak unit hitting a powerful one. This adds an element of unpredictability and ensures that few things are truly impossible in the game.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the chance of success if the difference between two values is 2 in the DRN system?",
+            "answer": "The chance of success if the difference between two values is 2 in the DRN system is 62%.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does DRN stand for in Dominions 6?",
+            "answer": "DRN stands for Dominions Random Number, a system used in Dominions 6 to generate random numbers for various game mechanics.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "How is a DRN roll performed in Dominions 6?",
+            "answer": "A DRN roll is performed by rolling two six-sided dice (2d6). If either die rolls a 6, one is subtracted from that die's result, and the die is re-rolled and added to the total. This process repeats as long as a 6 is rolled.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the purpose of the open-ended DRN system?",
+            "answer": "The open-ended DRN system ensures that very unlikely events can still occur in the game, reflecting the idea that few things are truly impossible in the world of Dominions.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Describe an example of a DRN roll where both dice come up as 6.",
+            "answer": "If both dice come up as 6 in a DRN roll, one is subtracted from each, making the total 10. Both dice are then re-rolled and their results added to the total. If either re-rolled die rolls a 6 again, the process repeats, potentially leading to a high total.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the DRN system handle a roll where one die comes up as 6 and the other as 4?",
+            "answer": "If one die rolls a 6 and the other a 4, one is subtracted from the 6, making the total 9, and the 6 is re-rolled. If the re-roll results in a 3, for example, the final total would be 9 + 3 = 12.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the result of a DRN roll if the dice come up as 2 and 6, and the re-rolled 6 comes up as 6 again, followed by a 4?",
+            "answer": "If the dice come up as 2 and 6, the total becomes 7 after subtracting one from the 6. The 6 is re-rolled and comes up as 6 again, making the total 12 after subtracting one. The 6 is re-rolled once more and comes up as 4, resulting in a final total of 16.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the significance of the lower-case \"drn\" in Dominions 6?",
+            "answer": "The lower-case \"drn\" refers to situations where only a single six-sided die is rolled, but it remains open-ended like the two-dice DRN.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "In what situations might a single six-sided die (drn) be rolled instead of two in Dominions 6?",
+            "answer": "A single six-sided die (drn) might be rolled in rare cases specified by certain game mechanics or effects, but it still follows the open-ended rule of subtracting one and re-rolling if a 6 is rolled.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the DRN system ensure that very unlikely events remain possible?",
+            "answer": "The DRN system ensures that very unlikely events remain possible by using open-ended rolls, allowing for continuous re-rolling of dice that land on 6, which can result in high totals and thus make rare events feasible.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the probability table used for in the DRN system?",
+            "answer": "The probability table in the DRN system shows the difference between two values and the chance of beating that value using two open-ended dice, helping players estimate the likelihood of various outcomes.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the DRN system affect combat outcomes in Dominions 6?",
+            "answer": "The DRN system affects combat outcomes by determining the success of attacks and defenses through the comparison of attack and defense values modified by DRN rolls, allowing for a range of possible results.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why is the \"zero-point\" in the DRN probability table 46%?",
+            "answer": "The \"zero-point\" in the DRN probability table is 46% because, when evenly matched, a player needs to roll higher than the opponent on the same type of dice, resulting in a slightly less than even chance of success.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the chance of success with a DRN difference of 1?",
+            "answer": "The chance of success with a DRN difference of 1 is 54%.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does a DRN difference of -2 affect the chance of success?",
+            "answer": "A DRN difference of -2 results in a 30% chance of success.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the role of the DRN system in determining the outcome of ability checks?",
+            "answer": "The DRN system determines the outcome of ability checks by comparing the unit's ability score plus a DRN roll against a target number plus a DRN roll, influencing various game mechanics such as morale checks.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the open-ended nature of DRN rolls influence gameplay in Dominions 6?",
+            "answer": "The open-ended nature of DRN rolls influences gameplay by introducing an element of unpredictability and ensuring that even highly improbable events can occur, adding depth and excitement to the game.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the Dominions Random Number (DRN) in Dominions 6?",
+            "answer": "The Dominions Random Number (DRN) is a unique random number mechanism used in Dominions 6. It involves rolling two six-sided dice (2d6) with an additional bonus: if any individual die roll is a \"6,\" one is subtracted, and then that die is re-rolled and added to the result. This is referred to as an \"open-ended\" 2d6 roll. This mechanism ensures that even highly unlikely events can occur, modeling the game's intention that very few things are truly impossible in the world of Dominions.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How is a DRN calculated in Dominions 6 when a 6 is rolled?",
+            "answer": "When a DRN is calculated and a 6 is rolled on one of the dice, one is subtracted from the total, and the die is rolled again. The new roll is added to the total. This process continues if additional 6s are rolled, which can occasionally result in very large numbers. For example, if the initial rolls are 2 and 6, the total becomes 7 (after subtracting 1). If the re-rolled die is another 6, the total becomes 12 (after subtracting 1 again). If the subsequent roll is 4, the final DRN result is 16.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What happens if both original dice in a DRN roll come up as 6?",
+            "answer": "If both original dice in a DRN roll come up as 6, both dice are re-rolled after subtracting 1 from each die's result. This process continues as long as 6s keep being rolled, potentially leading to very high results.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why was the Dominions Random Number (DRN) created?",
+            "answer": "The DRN was created to model the idea that very few things in the world of Dominions are truly impossible. The open-ended nature of the DRN ensures that even highly unlikely events can occur, which would not be the case if the rolls were not open-ended.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does \"drn\" in lowercase letters refer to in Dominions 6?",
+            "answer": "In Dominions 6, \"drn\" in lowercase letters refers to a single six-sided die roll that is still open-ended, meaning that if a 6 is rolled, one is subtracted and the die is re-rolled and added to the result, similar to the regular DRN but involving only one die.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How are probabilities determined in Dominions 6 using the DRN system?",
+            "answer": "Probabilities in Dominions 6 using the DRN system are determined by comparing the DRN rolls of two opposing players. The manual provides a table showing the difference between two values and the chance of beating that value using two open-ended dice. For example, if the difference between the values is -1, the chance of success is 38%, whereas if the difference is 2, the chance of success is 62%.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the table of probabilities help players understand their chances of success in Dominions 6?",
+            "answer": "The table of probabilities in Dominions 6 helps players understand their chances of success by showing the chance of beating a specific value using two open-ended dice based on the difference between two opposing values. For example, if a unit with attack skill 9 faces an opponent with defense skill 10, the table indicates a 38% chance of success. If the values were reversed, the chance of success would be 54%. This illustrates that even when evenly matched, the chances of success are slightly less than even due to the 46% \"zero-point.\"",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does a morale check \"against\" a number mean in Dominions 6?",
+            "answer": "A morale check \"against\" a number in Dominions 6 means that a unit's morale (or other ability) plus a DRN is compared to the specified number plus a DRN. For example, if a unit has to take a morale check against 12 and has a morale of 10, the chance of passing the check, according to the probability table, is 30%.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How is the concept of \"open-ended\" dice rolls implemented in Dominions 6?",
+            "answer": "The concept of \"open-ended\" dice rolls in Dominions 6 is implemented by re-rolling any six-sided die that lands on a 6, subtracting one from the roll, and adding the new roll to the total. This process continues as long as 6s are rolled, allowing for potentially very high results and modeling the game's principle that few things are truly impossible.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why is the \"zero-point\" in the probability table for Dominions 6 only 46%?",
+            "answer": "The \"zero-point\" in the probability table for Dominions 6 is only 46% because it reflects the chance of beating an evenly matched opponent using two open-ended dice. To succeed, a player must roll higher than the opponent on the same type of dice, resulting in a probability slightly less than even. This illustrates the inherent challenge in achieving success against an opponent with equal stats.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the purpose of the Dominions Random Number (DRN) in Dominions 6?",
+            "answer": "The purpose of the Dominions Random Number (DRN) is to ensure that even very unlikely events can occur, making the game more realistic and dynamic by preventing any event from being entirely impossible.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does an open-ended dice roll contribute to gameplay in Dominions 6?",
+            "answer": "An open-ended dice roll contributes to gameplay in Dominions 6 by allowing for the possibility of exceptionally high results, which can result in surprising and rare events, adding an element of unpredictability and excitement to the game.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "Describe the process of calculating a Dominions Random Number (DRN) if both dice initially roll a 6.",
+            "answer": "If both dice initially roll a 6, each die has 1 subtracted from its roll, and both are re-rolled. This process continues if the dice keep rolling 6s, with each 6 triggering a subtraction and re-roll, potentially leading to a high final DRN result.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What is the significance of the DRN being \"open-ended\" in the context of Dominions 6?",
+            "answer": "The significance of the DRN being \"open-ended\" is that it allows for continuous re-rolls if a 6 is rolled, which means there is no fixed upper limit to the result, making even extremely unlikely outcomes possible and enhancing the game's realism.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "How often does the manual state that only one six-sided die is rolled instead of two for a DRN?",
+            "answer": "The manual states that in some rare cases, only one six-sided die is rolled instead of two for a DRN. This single die roll is still open-ended and is referred to as \"drn\" in lower-case letters.",
+            "difficulty": "Easy",
+            "category": "The Basics"
+        },
+        {
+            "question": "In Dominions 6, how is the probability of an event occurring calculated using the DRN system?",
+            "answer": "In Dominions 6, the probability of an event occurring using the DRN system is calculated by comparing the difference between two values and consulting a probability table that shows the chance of one value beating another using two open-ended dice.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does a 46% chance of beating an opponent indicate in the context of the DRN system?",
+            "answer": "A 46% chance of beating an opponent indicates that when two values are evenly matched, the probability of one value rolling higher than the other using the same type of dice is slightly less than even, reflecting the inherent randomness and challenge in the game.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "Explain why a unit with higher attack skill has a better chance of hitting an opponent in Dominions 6.",
+            "answer": "A unit with higher attack skill has a better chance of hitting an opponent in Dominions 6 because the difference between the unit's attack skill and the opponent's defense skill is compared using the DRN system, where a positive difference increases the probability of a successful hit.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the DRN system ensure that unlikely events can still occur in Dominions 6?",
+            "answer": "The DRN system ensures that unlikely events can still occur by using open-ended rolls, where rolling a 6 allows for continuous re-rolls and additions. This mechanism means that even with low probabilities, there is always a chance for unlikely events to happen.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "What role does the DRN play in determining the outcome of combat in Dominions 6?",
+            "answer": "The DRN plays a crucial role in determining the outcome of combat in Dominions 6 by providing a randomized element to attack and defense rolls. The result of these rolls, influenced by the DRN, determines whether attacks hit or miss, adding variability to combat outcomes.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How is the probability table used to assess combat success in Dominions 6?",
+            "answer": "The probability table is used to assess combat success in Dominions 6 by showing the chances of one value beating another using two open-ended dice. Players can compare the difference between attack and defense skills and consult the table to determine the likelihood of a successful attack.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "Why might the chance of success be less than 50% even when two units are evenly matched in Dominions 6?",
+            "answer": "The chance of success might be less than 50% even when two units are evenly matched because the probability table reflects the need to roll higher than the opponent. With evenly matched values, the inherent randomness results in a 46% chance of success rather than an even 50%.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        },
+        {
+            "question": "What does it mean when the manual refers to a \"morale check against 12\" in Dominions 6?",
+            "answer": "A \"morale check against 12\" means that a unit's morale plus a DRN is compared to the number 12 plus a DRN. The unit must roll higher than the total of 12 plus the DRN to pass the check, with the probability determined by the difference between the unit's morale and 12.",
+            "difficulty": "Medium",
+            "category": "The Basics"
+        },
+        {
+            "question": "How does the DRN system affect the design of units and strategies in Dominions 6?",
+            "answer": "The DRN system affects the design of units and strategies by introducing an element of randomness that players must account for. Units with higher attack or defense skills have better odds in combat, but the open-ended rolls mean that even weaker units can occasionally succeed, encouraging diverse and flexible strategies.",
+            "difficulty": "Hard",
+            "category": "The Basics"
+        }
+    ]
+}

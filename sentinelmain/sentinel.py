@@ -91,8 +91,7 @@ class GameStateMonitor:
                     retries,
                 )
                 await asyncio.sleep(2**attempt)
-        logging.error(
-            "Failed to query game page: %s after %d attempts", url, retries)
+        logging.error("Failed to query game page: %s after %d attempts", url, retries)
         return None
 
     def extract_game_state(self, html: str) -> Optional[Dict]:
@@ -134,8 +133,7 @@ class GameStateMonitor:
                 continue
             faction = cells[0].get_text().strip()
             status = cells[1].get_text().strip()
-            game_state["players"].append(
-                {"faction": faction, "status": status})
+            game_state["players"].append({"faction": faction, "status": status})
 
         turn_match = re.search(r", Turn (\d+)", game_info)
         game_state["turn"] = turn_match.group(1) if turn_match else "Unknown"
@@ -145,7 +143,7 @@ class GameStateMonitor:
 
     async def check_game_and_notify(self, game: Dict):
         logging.info(f"Starting game state check for game: {game['url']}")
-        url = game["url"]
+        url = game['url']
 
         html = await self.fetch_game_page(url)
         if html is None:
@@ -165,42 +163,73 @@ class GameStateMonitor:
             logging.info(f"Current state: {current_state}")
 
             moved_factions = []
+            remaining_factions = []            
             state_changed = False
             if last_state:
-                for last_player, current_player in zip(last_state["players"], current_state["players"]):
+                for last_player, current_player in zip(
+                    last_state["players"], current_state["players"]
+                ):
+                    faction = current_player["faction"]
+                    is_cpu = game["players"].get(faction, {}).get("name") == "CPU"
+
+                    if is_cpu:
+                        continue  # Skip CPU players
+
                     if last_player["status"] != current_player["status"]:
                         state_changed = True
-                        if last_player["status"] != "Turn played" and current_player["status"] == "Turn played":
-                            faction = current_player["faction"]
-                            # Check if the player is not a CPU
-                            if game["players"].get(faction, {}).get("name") != "CPU":
-                                moved_factions.append(faction)
-                                logging.info(f"Faction {faction} has moved")
 
-            if state_changed and moved_factions:  # Only notify if there are non-CPU moves
+                    if current_player["status"] == "Turn played" and last_player["status"] != "Turn played":
+                        moved_factions.append(faction)
+                        logging.info(f"Faction {faction} has moved")
+                    else:
+                        remaining_factions.append((faction, current_player["status"]))
+            else:
+                state_changed = True
+                for player in current_state["players"]:
+                    faction = player["faction"]
+                    is_cpu = game["players"].get(faction, {}).get("name") == "CPU"
+                    if not is_cpu:
+                        if player["status"] == "Turn played":
+                            moved_factions.append(faction)
+                        else:
+                            remaining_factions.append((faction, player["status"]))
+
+            if state_changed:  # Only notify if the state has actually changed
                 logging.info("State change detected, preparing notifications")
 
-                notification_message = f"Game state change detected for {game['url']}:\n"
-                for moved_faction in moved_factions:
-                    player_name = game["players"][moved_faction]["name"]
-                    notification_message += f"- {moved_faction} ({player_name}) has played their turn\n"
+                notification_message = (
+                    f"Game state update for {game['url']}:\n"
+                )
+                if moved_factions:
+                    for moved_faction in moved_factions:
+                        player_name = game["players"][moved_faction]["name"]
+                        notification_message += (
+                            f"- {moved_faction} ({player_name}) has played their turn\n"
+                        )
 
-                group_id = game.get('group')
+                if remaining_factions:
+                    notification_message += "\nRemaining players:\n"
+                    for faction, status in remaining_factions:
+                        player_name = game["players"][faction]["name"]
+                        notification_message += f"- {faction} ({player_name}): {status}\n"
+                else:
+                    notification_message += "\nAll players have completed their turns."
+
+                group_id = game.get("group")
                 if group_id:
                     try:
-                        await send_signal_message(self.config['phone_number'], group_id, notification_message)
+                        await send_signal_message(
+                            self.config["phone_number"], group_id, notification_message
+                        )
                         logging.info(f"Notification sent to group {group_id}")
                     except Exception as e:
                         logging.error(
-                            f"Failed to send notification to group {group_id}: {e}")
+                            f"Failed to send notification to group {group_id}: {e}"
+                        )
                 else:
-                    logging.warning(
-                        f"No group ID specified for game {game['url']}")
-            elif state_changed:
-                logging.info(
-                    "State change detected, but only CPU players moved. No notification sent.")
+                    logging.warning(f"No group ID specified for game {game['url']}")
             else:
-                logging.info("No state change detected")
+                logging.info("No state change or moves detected")
 
             self.game_states[url] = {
                 "state": current_state,
@@ -208,7 +237,6 @@ class GameStateMonitor:
             }
 
         logging.info(f"Game state check completed for game: {game['url']}")
-
 
 class SentinelGPTProcessManager:
     """
@@ -252,7 +280,8 @@ class SentinelGPTProcessManager:
         logging.info("Checking SentinelGPT process health...")
         if self.process is None or self.process.returncode is not None:
             logging.warning(
-                "SentinelGPT process is not running or has terminated. Attempting to restart...")
+                "SentinelGPT process is not running or has terminated. Attempting to restart..."
+            )
             await self.restart_process()
         else:
             logging.info("SentinelGPT process appears to be running normally.")
@@ -284,7 +313,8 @@ class SentinelGPTProcessManager:
             await self.get_known_assistants()
         if not self.known_assistants:
             logging.warning(
-                f"SentinelGPT initialization timed out after {timeout} seconds")
+                f"SentinelGPT initialization timed out after {timeout} seconds"
+            )
         else:
             logging.info("SentinelGPT initialized successfully")
 
@@ -301,8 +331,7 @@ class SentinelGPTProcessManager:
                 try:
                     await asyncio.wait_for(self.process.wait(), timeout=10)
                 except asyncio.TimeoutError:
-                    logging.warning(
-                        "Process didn't terminate gracefully. Killing it.")
+                    logging.warning("Process didn't terminate gracefully. Killing it.")
                     self.process.kill()
                     await self.process.wait()
 
@@ -333,24 +362,25 @@ class SentinelGPTProcessManager:
         try:
             self.process.stdin.write(f"{message}\n".encode())
             await self.process.stdin.drain()
-            logging.debug(
-                "Message sent to SentinelGPT, waiting for response...")
+            logging.debug("Message sent to SentinelGPT, waiting for response...")
 
             response = await self._read_response()
             # Log first 100 chars
             logging.debug(
-                f"Received complete response from SentinelGPT: {response[:100]}...")
+                f"Received complete response from SentinelGPT: {response[:100]}..."
+            )
             return response
         except Exception as e:
-            logging.error(
-                f"Error in process_single_message: {e}", exc_info=True)
+            logging.error(f"Error in process_single_message: {e}", exc_info=True)
             raise
 
     async def _read_response(self):
         response_lines = []
         while True:
             try:
-                line = await asyncio.wait_for(self.process.stdout.readline(), timeout=30.0)
+                line = await asyncio.wait_for(
+                    self.process.stdout.readline(), timeout=30.0
+                )
                 if not line:
                     logging.error("Received empty line from SentinelGPT")
                     break
@@ -361,8 +391,7 @@ class SentinelGPTProcessManager:
                     break
                 response_lines.append(decoded_line)
             except asyncio.TimeoutError:
-                logging.error(
-                    "Timeout while reading response from SentinelGPT")
+                logging.error("Timeout while reading response from SentinelGPT")
                 break
             except Exception as e:
                 logging.error(f"Error reading line from SentinelGPT: {e}")
@@ -370,7 +399,8 @@ class SentinelGPTProcessManager:
 
         full_response = "\n".join(response_lines)
         logging.info(
-            f"Compiled full response (first 100 chars): {full_response[:100]}...")
+            f"Compiled full response (first 100 chars): {full_response[:100]}..."
+        )
         return full_response
 
     async def process_messages(self, messages: List[str]):
@@ -380,8 +410,7 @@ class SentinelGPTProcessManager:
                 response = await self.process_single_message(message)
                 responses.append(response)
             except Exception as e:
-                logging.error(
-                    f"Error processing message: {message}. Error: {str(e)}")
+                logging.error(f"Error processing message: {message}. Error: {str(e)}")
                 responses.append(f"Error: {str(e)}")
         return responses
 
@@ -390,7 +419,7 @@ def extract_group_info(msg: str) -> Tuple[Optional[str], Optional[str]]:
     group_id = None
     group_name = None
 
-    lines = msg.split('\n')
+    lines = msg.split("\n")
     for line in lines:
         stripped_line = line.strip()
         if stripped_line.startswith("Id:"):
@@ -417,20 +446,24 @@ def load_and_validate_config(config_path: str = "config.json") -> Dict:
         with open(config_path, "r", encoding="utf-8") as f:
             config = json.load(f)
 
-        required_keys = ["phone_number",
-                         "allowed_group_ids", "games", "gpt_directory"]
+        required_keys = ["phone_number", "allowed_group_ids", "games", "gpt_directory"]
         missing_keys = [key for key in required_keys if key not in config]
         if missing_keys:
-            raise ValueError(
-                f"Config missing required keys: {', '.join(missing_keys)}")
+            raise ValueError(f"Config missing required keys: {', '.join(missing_keys)}")
 
-        if not isinstance(config["phone_number"], str) or not re.match(r"^\+?\d+$", config["phone_number"]):
+        if not isinstance(config["phone_number"], str) or not re.match(
+            r"^\+?\d+$", config["phone_number"]
+        ):
             raise ValueError("Invalid phone_number in configuration")
 
-        if not isinstance(config["allowed_group_ids"], list) or not all(isinstance(gid, str) for gid in config["allowed_group_ids"]):
+        if not isinstance(config["allowed_group_ids"], list) or not all(
+            isinstance(gid, str) for gid in config["allowed_group_ids"]
+        ):
             raise ValueError("Invalid allowed_group_ids in configuration")
 
-        if not isinstance(config["games"], list) or not all(isinstance(game, dict) for game in config["games"]):
+        if not isinstance(config["games"], list) or not all(
+            isinstance(game, dict) for game in config["games"]
+        ):
             raise ValueError("Invalid games list in configuration")
 
         if not isinstance(config["gpt_directory"], str):
@@ -450,7 +483,7 @@ async def send_signal_message(
     mentions: Optional[List[Dict]] = None,
     timeout: int = 30,
 ):
-    logging.debug(f"Sending Signal message to group {group_id}")
+    logging.debug(f"Sending Signal message to group {group_id}: {message}")
     if not message.strip():
         logging.debug("Message is empty, not sending.")
         return
@@ -470,13 +503,17 @@ async def send_signal_message(
     ]
     if mentions:
         for mention in mentions:
-            command.extend([
-                "--mention",
-                f"{mention['start']}:{mention['length']}:{mention['phone_number']}",
-            ])
+            command.extend(
+                [
+                    "--mention",
+                    f"{mention['start']}:{mention['length']}:{mention['phone_number']}",
+                ]
+            )
 
     logging.debug(f"Executing command: {' '.join(command)}")
-    status, output = await asyncio.to_thread(execute_subprocess_with_retries, command, timeout)
+    status, output = await asyncio.to_thread(
+        execute_subprocess_with_retries, command, timeout
+    )
 
     if status:
         logging.info(f"Message sent successfully to group {group_id}")
@@ -533,9 +570,7 @@ async def receive_signal_messages(phone_number: str, config: Dict):
     while True:
         try:
             process = await asyncio.create_subprocess_exec(
-                *command,
-                stdout=asyncio.subprocess.PIPE,
-                stderr=asyncio.subprocess.PIPE
+                *command, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
 
             # Capture both stdout and stderr
@@ -553,7 +588,8 @@ async def receive_signal_messages(phone_number: str, config: Dict):
             return_code = process.returncode
             if return_code != 0:
                 logging.error(
-                    f"signal-cli process exited with return code {return_code}")
+                    f"signal-cli process exited with return code {return_code}"
+                )
 
         except asyncio.CancelledError:
             logging.info("Receive messages task was cancelled")
@@ -578,32 +614,41 @@ async def process_signal_messages(messages: List[str], phone_number: str, config
 
         if line.strip() == "":  # Empty line indicates end of a message
             # Process the complete message
-            await process_complete_message(current_message, phone_number, config, sentinel_gpt, allowed_group_ids)
+            await process_complete_message(
+                current_message, phone_number, config, sentinel_gpt, allowed_group_ids
+            )
             # Reset for next message
             current_message = []
 
     # Process any remaining message
     if current_message:
-        await process_complete_message(current_message, phone_number, config, sentinel_gpt, allowed_group_ids)
+        await process_complete_message(
+            current_message, phone_number, config, sentinel_gpt, allowed_group_ids
+        )
 
     logging.info(f"Finished processing {len(messages)} message lines")
 
 
-async def process_complete_message(current_message: List[str], phone_number: str, config: Dict, sentinel_gpt, allowed_group_ids: Set[str]):
+async def process_complete_message(
+    current_message: List[str],
+    phone_number: str,
+    config: Dict,
+    sentinel_gpt,
+    allowed_group_ids: Set[str],
+):
     group_id, group_name, body = extract_message_info(current_message)
 
     logging.debug(
-        f"Extracted message info - Group ID: {group_id}, Group Name: {group_name}, Body: {body}")
+        f"Extracted message info - Group ID: {group_id}, Group Name: {group_name}, Body: {body}"
+    )
 
     if body and body.startswith("!"):
         if group_id is None:
             logging.warning(f"Command message without group ID: {body}")
         elif group_id not in allowed_group_ids:
-            logging.warning(
-                f"Command message from non-allowed group: {group_id}")
+            logging.warning(f"Command message from non-allowed group: {group_id}")
         else:
-            logging.info(
-                f"Processing command message: {body} for group: {group_id}")
+            logging.info(f"Processing command message: {body} for group: {group_id}")
             try:
                 await process_command_message(
                     current_message,
@@ -620,7 +665,9 @@ async def process_complete_message(current_message: List[str], phone_number: str
         logging.debug("Message does not contain a command, skipping")
 
 
-def extract_message_info(message_lines: List[str]) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+def extract_message_info(
+    message_lines: List[str],
+) -> Tuple[Optional[str], Optional[str], Optional[str]]:
     group_id = None
     group_name = None
     body = None
@@ -641,8 +688,9 @@ def extract_message_info(message_lines: List[str]) -> Tuple[Optional[str], Optio
             group_id, group_name = extract_group_info(group_info)
 
         elif is_sync_message and stripped_line.startswith("Message timestamp:"):
-            next_line = message_lines[i + 1].strip() if i + \
-                1 < len(message_lines) else ""
+            next_line = (
+                message_lines[i + 1].strip() if i + 1 < len(message_lines) else ""
+            )
             if next_line.startswith("Body:"):
                 body = next_line.split("Body:", 1)[1].strip()
 
@@ -668,26 +716,38 @@ async def process_command_message(
             try:
                 async with sentinel_gpt.subprocess_lock:
                     logging.info(
-                        "Sending command to SentinelGPT and waiting for response...")
-                    responses = await sentinel_gpt.process_messages([f"{prefix} {command}"])
+                        "Sending command to SentinelGPT and waiting for response..."
+                    )
+                    responses = await sentinel_gpt.process_messages(
+                        [f"{prefix} {command}"]
+                    )
                     logging.info(
-                        f"Received response from SentinelGPT. Response length: {len(responses[0]) if responses else 0}")
+                        f"Received response from SentinelGPT. Response length: {len(responses[0]) if responses else 0}"
+                    )
 
                 if responses:
                     for i, response in enumerate(responses, 1):
                         formatted_response = f"THE MACHINE HAS RETURNED WITH THE ANSWERS YOU SEEK\n{response}"
                         logging.info(
-                            f"Sending response part {i}/{len(responses)} to Signal")
-                        await send_signal_message(phone_number, group_id, formatted_response)
+                            f"Sending response part {i}/{len(responses)} to Signal"
+                        )
+                        await send_signal_message(
+                            phone_number, group_id, formatted_response
+                        )
                         logging.info(
-                            f"Response part {i}/{len(responses)} sent to Signal")
+                            f"Response part {i}/{len(responses)} sent to Signal"
+                        )
                 else:
-                    logging.warning(
-                        f"No response generated for command: {body}")
-                    await send_signal_message(phone_number, group_id, "No response was generated for your command.")
+                    logging.warning(f"No response generated for command: {body}")
+                    await send_signal_message(
+                        phone_number,
+                        group_id,
+                        "No response was generated for your command.",
+                    )
             except Exception as e:
                 logging.error(
-                    f"Error processing command with SentinelGPT: {e}", exc_info=True)
+                    f"Error processing command with SentinelGPT: {e}", exc_info=True
+                )
                 error_message = f"Error processing command: {str(e)}"
                 await send_signal_message(phone_number, group_id, error_message)
         elif prefix == "status":
@@ -695,10 +755,16 @@ async def process_command_message(
             pass
         else:
             logging.warning(f"Unknown command prefix: {prefix}")
-            await send_signal_message(phone_number, group_id, f"Unknown command: {prefix}")
+            await send_signal_message(
+                phone_number, group_id, f"Unknown command: {prefix}"
+            )
     else:
         logging.warning(f"Invalid command format: {body}")
-        await send_signal_message(phone_number, group_id, "Invalid command format. Please use '!command argument'.")
+        await send_signal_message(
+            phone_number,
+            group_id,
+            "Invalid command format. Please use '!command argument'.",
+        )
 
     logging.info(f"Finished processing command message: {body}")
 
@@ -712,8 +778,7 @@ async def send_message_responses(
             await send_signal_message(phone_number, group_id, response)
             logging.info(f"Response sent for message: {message[:50]}...")
         else:
-            logging.warning(
-                f"No response generated for message: {message[:50]}...")
+            logging.warning(f"No response generated for message: {message[:50]}...")
 
 
 async def periodic_check(game_monitor: GameStateMonitor, game: Dict, interval: int):
@@ -724,7 +789,9 @@ async def periodic_check(game_monitor: GameStateMonitor, game: Dict, interval: i
             logging.info(f"Periodic check completed for game: {game['url']}")
         except Exception as e:
             logging.error(
-                f"Error during periodic check for game {game['url']}: {e}", exc_info=True)
+                f"Error during periodic check for game {game['url']}: {e}",
+                exc_info=True,
+            )
 
         logging.info(f"Sleeping for {interval} seconds before next check")
         await asyncio.sleep(interval)
@@ -746,8 +813,7 @@ async def handle_status_command(phone_number: str, config: Dict, group_id: str) 
     for game in config["games"]:
         html = await game_monitor.fetch_game_page(game["url"])
         if html is None:
-            status_messages.append(
-                f"Unable to fetch game state for {game['url']}")
+            status_messages.append(f"Unable to fetch game state for {game['url']}")
             continue
 
         state = game_monitor.extract_game_state(html)
@@ -762,7 +828,7 @@ async def handle_status_command(phone_number: str, config: Dict, group_id: str) 
             outstanding_players = [
                 player
                 for player in state["players"]
-                if player["status"] == "-"
+                if player["status"] != "Turn played"
                 and game["players"].get(player["faction"], {}).get("name") != "CPU"
             ]
 
@@ -820,7 +886,8 @@ async def main():
         ]
 
         sentinel_gpt: SentinelGPTProcessManager = SentinelGPTProcessManager(
-            sentinelgpt_command, config)
+            sentinelgpt_command, config
+        )
         app.set_sentinel_gpt(sentinel_gpt)
         await sentinel_gpt.start_process()
 
@@ -829,22 +896,27 @@ async def main():
 
         if not sentinel_gpt.known_assistants:
             logging.error(
-                "Failed to initialize SentinelGPT and retrieve known assistants.")
+                "Failed to initialize SentinelGPT and retrieve known assistants."
+            )
             return
 
         # Send the introductory message with status
-        await send_intro_message(config["phone_number"], config, sentinel_gpt.known_assistants)
+        await send_intro_message(
+            config["phone_number"], config, sentinel_gpt.known_assistants
+        )
 
         game_monitor = GameStateMonitor(config)
 
         # Create tasks for periodic checks
         for game in config["games"]:
-            task = asyncio.create_task(periodic_check(
-                game_monitor, game, 300))  # 300 seconds = 5 minutes
+            task = asyncio.create_task(
+                periodic_check(game_monitor, game, 300)
+            )  # 300 seconds = 5 minutes
             check_tasks.append(task)
 
         receive_task = asyncio.create_task(
-            receive_signal_messages(config["phone_number"], config))
+            receive_signal_messages(config["phone_number"], config)
+        )
 
         while True:
             await asyncio.sleep(300)
@@ -875,6 +947,7 @@ async def main():
             sentinel_gpt.process.terminate()
             await sentinel_gpt.process.wait()
             logging.info("SentinelGPT process terminated.")
+
 
 # Run the main function
 if __name__ == "__main__":
