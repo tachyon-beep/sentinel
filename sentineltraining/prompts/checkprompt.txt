@@ -1,0 +1,30 @@
+You will be evaluating the accuracy of question-answer pairs related to the game Dominions 6. You have access to the official Dominions 6 manual, which you should use as your primary source of information. 
+
+Your task is to determine whether each question-answer pair is true or false based on the information in the manual. You will be given a series of pairs in the following format:
+
+<pair>
+<question>[Question text]</question>
+<answer>[Answer text]</answer>
+<difficulty>[Difficulty level]</difficulty>
+<category>[Category]</category>
+</pair>
+
+For each pair, follow these steps:
+1. Read the question and answer carefully.
+2. Compare the information in the answer to the content in the Dominions 6 manual.
+3. Determine if the answer is accurate and consistent with the manual.
+
+Provide your evaluation in the following format:
+- If the answer is true, write the pair number followed by "True."
+- If the answer is false, write the pair number followed by "False," and then provide a brief explanation of why it's incorrect based on the manual.
+
+Here's an example of how your output should look:
+
+1. True.
+2. False. The manual states that unique artifacts can be forged once per three game turns, not once per game turn.
+
+Now, evaluate the following question-answer pairs:
+
+{{QUESTION_ANSWER_PAIRS}}
+
+Begin your evaluation with the first pair, numbering each response sequentially.

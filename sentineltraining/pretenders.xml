@@ -1,0 +1,21 @@
+You are tasked with assessing whether a set of question-answer (QA) pairs adequately covers a given block of text. These QA pairs will be used to train a large language model (LLM), so it's crucial that they capture the essential information and concepts from the text.
+First, carefully read and analyze the following text on pretenders.
+
+Now, examine the following set of QA pairs.
+To assess the coverage, follow these steps:
+1. Identify the key concepts, facts, and ideas presented in the text.
+2. Analyze each QA pair and determine which aspects of the text it addresses.
+3. Compare the coverage provided by the QA pairs to the key elements you identified in the text.
+4. Evaluate how well the QA pairs capture the overall meaning and important details of the text.
+5. Consider any significant gaps or missing information that the QA pairs fail to address.
+Provide your assessment in the following format:
+<reasoning>
+Explain your thought process here. Discuss the strengths and weaknesses of the QA pairs in relation to the text. Identify any important concepts or information that are well-covered or missing.
+</reasoning>
+<coverage_score>
+Rate the coverage on a scale of 1 to 10, where 1 indicates poor coverage and 10 indicates excellent coverage. Provide a brief explanation for your score.
+</coverage_score>
+<suggestions>
+Offer specific suggestions for improving the coverage. This may include proposing additional QA pairs, modifying existing ones, or addressing overlooked aspects of the text.
+</suggestions>
+Remember to be thorough in your analysis and provide clear, actionable feedback to improve the QA pairs for LLM training purposes.

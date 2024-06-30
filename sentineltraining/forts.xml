@@ -1,0 +1,1759 @@
+<pair>
+<question>What are the main purposes of forts in Dominions 6?</question>
+<answer>Forts in Dominions 6 serve as collection points for resources, supply depots for distribution to surrounding provinces, and shelters for troops in the event of a siege.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How are the attributes of different fortress types determined in Dominions 6?</question>
+<answer>The attributes of different fortress types are determined by the specific fort level being built. The build cost and time, administrative value, command points, recruitment points, supply storage, and wall integrity vary between different fort types, such as Palisades, Fortress, Castle, Citadel, and Grand Citadel.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Explain the concept of 'Admin' value in forts and its impact on resource collection and supply propagation.</question>
+<answer>The 'Admin' value of a fort determines the percentage of resources that the fortress can collect from neighboring provinces and supply propagation into nearby provinces. The formula for supply propagation is (Administration * 6) / (Distance + 1). Administration also increases the income of a province by Admin / 2%.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the formula for calculating supply propagation from a fortress to nearby provinces?</question>
+<answer>The formula for supply propagation from a fortress to nearby provinces is (Administration * 6) / (Distance + 1). For example, a fortress with an admin value of 50 contributes 150 supply to adjacent provinces, and the maximum distance for this supply propagation is four provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the different levels of fortresses available in each era of Dominions 6.</question>
+<answer>In Dominions 6, the availability of fort levels is dictated by the game's era: 
+- Early Age: Fortress
+- Middle Age: Castle
+- Late Age: Citadel
+Some nations may have primitive or advanced forts depending on their specific characteristics, such as Yomi with primitive forts and EA Ermor with advanced forts.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do masons influence fort construction in Dominions 6?</question>
+<answer>Masons, available to some nations like Marignon and Ulm in the Middle Era, can construct forts one level higher than normal. This is a trait on specific commanders rather than a nation trait. For example, a commander with the mason trait can be used to construct a Grand Citadel, which requires both a citadel and a mason.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes of a Palisades fort in Dominions 6?</question>
+<answer>A Palisades fort has the following attributes:
+- Build Cost: 1000 gold
+- Build Time: 5 months
+- Admin: 15
+- Command Points: +0
+- Recruitment Points: +50%
+- Supply Storage: 150
+- Wall Integrity: 200</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the difference between 'Castle Guards' and 'Wall Defenders' in Dominions 6?</question>
+<answer>Castle Guards and Wall Defenders are units that help defend a fort during a siege. Castle Guards start behind the gate, while Wall Defenders are stationed on the walls. Wall Defenders never run out of ammunition, can be attacked from inside the walls or by flying/ethereal units, have a 20% increased missile range, and have protection from missiles equivalent to a tower shield with a Protection value of 30.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How is the supply value of a fortress used during a siege?</question>
+<answer>During a siege, the supply value of a fortress determines how many units can be supplied inside. Each turn, the supply value is divided by the length of the siege to determine the available supply points. For example, on the fifth turn of a siege of a fortress with a supply value of 100, the fortress provides besieged units with 20 supply.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What restrictions apply to forts when collecting resources from adjacent provinces?</question>
+<answer>Forts cannot draw resources from adjacent provinces if:
+- The adjacent province contains a fort.
+- The adjacent province is an enemy province.
+- A land fort cannot draw resources from an adjacent sea province and vice versa.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the era of the game affect fort availability for most nations?</question>
+<answer>The era of the game affects fort availability as follows:
+- Early Age: Only fortresses are available.
+- Middle Age: Castles are available.
+- Late Age: Citadels are available.
+Some nations can build forts that deviate from these standards, with primitive or advanced forts depending on their specific characteristics.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the 'Defense' value of a fort, and how does it impact sieges in Dominions 6?</question>
+<answer>The 'Defense' value of a fort represents the number of points of damage that must be done to the fort by an enemy siege before it can be attacked. Each turn, a comparison is made between the strength of the sieging and besieged forces, with the difference determining the damage to the fortress' defense value.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What factors contribute to a fort's ability to increase the income of a province in Dominions 6?</question>
+<answer>A fort's admin value increases the income of a province by Admin / 2%. For example, a fort with an Admin value of 30 would increase the province's income by 15%.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Can forts draw resources from adjacent provinces in Dominions 6? Explain any limitations.</question>
+<answer>Forts can draw resources from adjacent provinces with some limitations: 
+- A land fort cannot draw resources from a sea province and vice versa.
+- Forts cannot draw resources from provinces that also contain forts or enemy provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do Wall Defenders contribute to a fort's defense during a siege in Dominions 6?</question>
+<answer>Wall Defenders contribute to a fort's defense by providing missile support with increased range, unlimited ammunition, and protection from missiles. They also help repair the fort's defenses alongside Castle Guards and can be attacked by flying, ethereal units, or from the stairs inside the walls.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What attributes are replaced when a fort is upgraded to a higher level in Dominions 6?</question>
+<answer>When a fort is upgraded to a higher level in Dominions 6, the admin, recruitment, supply, and wall integrity attributes of the previous fort are replaced by those of the new fort. The attributes do not stack.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the process and costs involved in upgrading a Palisades to a Fortress in Dominions 6.</question>
+<answer>Upgrading a Palisades to a Fortress involves an additional cost of 600 gold and three months of build time. The attributes of the Palisades are replaced by the attributes of the Fortress, which include increased admin value, command points, recruitment points, supply storage, and wall integrity.</answer>
+<difficulty>Medium</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply' attribute of a fortress impact besieged units during a siege in Dominions 6?</question>
+<answer>The 'Supply' attribute of a fortress determines how many units can be supplied inside the fortress during a siege. Each turn of the siege, the supply value is divided by the number of turns under siege to calculate the available supply points for besieged units.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the significance of the 'Wall Integrity' attribute in Dominions 6 forts?</question>
+<answer>The 'Wall Integrity' attribute of a fort determines its structural strength and resilience during a siege. Higher wall integrity means the fort can withstand more damage before being breached by enemy forces.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Explain the different attributes that are considered for each type of fort in Dominions 6.</question>
+<answer>The different attributes considered for each type of fort in Dominions 6 include build cost, build time, admin value, command points, recruitment points, supply
+
+ storage, and wall integrity. These attributes vary between fort types such as Palisades, Fortress, Castle, Citadel, and Grand Citadel.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do Castle Guards and Wall Defenders differ in their roles during a fort siege in Dominions 6?</question>
+<answer>Castle Guards are stationed behind the gate of the fort, while Wall Defenders are positioned on the walls. Wall Defenders provide missile support, never run out of ammunition, have increased missile range, and have protection from missiles. Both types of units contribute to repairing the fort's defenses during a siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to the admin, recruitment, supply, and wall integrity attributes when a fort is upgraded in Dominions 6?</question>
+<answer>When a fort is upgraded in Dominions 6, the admin, recruitment, supply, and wall integrity attributes of the previous fort are replaced by the attributes of the new fort. These attributes do not stack.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the build costs and times for constructing a Grand Citadel in Dominions 6?</question>
+<answer>Constructing a Grand Citadel in Dominions 6 requires 1000 gold and five months of build time. It has an admin value of 70, provides +2 command points, +150% recruitment points, 10000 supply storage, and 2000 wall integrity.</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What factors limit the supply propagation of a fortress to nearby provinces in Dominions 6?</question>
+<answer>The supply propagation of a fortress to nearby provinces in Dominions 6 is limited by the distance from the fortress. The formula for supply propagation is (Administration * 6) / (Distance + 1), and the maximum distance for supply propagation is four provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the role of 'Admin' value in increasing provincial income in Dominions 6.</question>
+<answer>The 'Admin' value of a fort in Dominions 6 increases the income of a province by Admin / 2%. For example, a fort with an Admin value of 30 would increase the income by 15% in the province where it is built.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the key attributes of a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has the following key attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 60
+- Command Points: +2
+- Recruitment Points: +125%
+- Supply Storage: 7500
+- Wall Integrity: 1500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What are the different stages and costs involved in constructing a fortress in Dominions 6?</question>
+<answer>Constructing a fortress in Dominions 6 involves multiple stages and costs:
+- Palisades: 1000 gold and five months
+- Fortress: Additional 600 gold and three months
+- Castle: Additional 600 gold and three months
+- Citadel: Additional 600 gold and three months
+- Grand Citadel: Additional 1000 gold and five months</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Explain how fort upgrades impact the collection of resources in Dominions 6.</question>
+<answer>In Dominions 6, fort upgrades impact the collection of resources by increasing the admin value, which determines the percentage of resources that the fort can collect from neighboring provinces. Higher-level forts have higher admin values, enabling better resource collection and supply propagation.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the conditions under which a fort cannot draw resources from an adjacent province in Dominions 6?</question>
+<answer>In Dominions 6, a fort cannot draw resources from an adjacent province if:
+- The adjacent province contains another fort.
+- The adjacent province is an enemy province.
+- The adjacent province is of a different terrain type (e.g., land fort cannot draw from a sea province).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do the roles of Castle Guards and Wall Defenders differ during a siege in Dominions 6?</question>
+<answer>During a siege in Dominions 6, Castle Guards are stationed behind the gate and provide melee defense, while Wall Defenders are positioned on the walls and provide ranged support with increased missile range, unlimited ammunition, and missile protection. Both contribute to repairing the fort's defenses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the maximum distance for supply propagation from a fortress in Dominions 6?</question>
+<answer>The maximum distance for supply propagation from a fortress in Dominions 6 is four provinces.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the 'Defense' value of a fort influence the outcome of a siege in Dominions 6?</question>
+<answer>The 'Defense' value of a fort in Dominions 6 represents the amount of damage that must be inflicted by an enemy siege force before the fort can be breached. Each turn, the difference in strength between the besieging and defending forces determines the damage to the fort's defense value, ultimately affecting the siege outcome.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the impact of 'Supply' value on units during a fort siege in Dominions 6.</question>
+<answer>The 'Supply' value of a fortress in Dominions 6 determines the number of units that can be supplied inside the fort during a siege. Each turn, the supply value is divided by the siege duration to calculate available supply points for besieged units, impacting their ability to sustain the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes of a Castle fort in Dominions 6?</question>
+<answer>A Castle fort in Dominions 6 has the following attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 45
+- Command Points: +1
+- Recruitment Points: +100%
+- Supply Storage: 2500
+- Wall Integrity: 1000</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain how Wall Defenders contribute to the defense of a fort during a siege in Dominions 6.</question>
+<answer>Wall Defenders contribute to the defense of a fort during a siege in Dominions 6 by providing missile support with increased range, unlimited ammunition, and protection from missiles. They can also be attacked by flying or ethereal units and from the stairs inside the walls. Wall Defenders help repair the fort's defenses along with Castle Guards.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to the attributes of a fort when it is upgraded in Dominions 6?</question>
+<answer>When a fort is upgraded in Dominions 6, the admin, recruitment, supply, and wall integrity attributes of the previous fort are replaced by the attributes of the new fort. These attributes do not stack, meaning the new attributes entirely replace the old ones.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Admin' value of a fort affect the collection of resources from neighboring provinces in Dominions 6?</question>
+<answer>The 'Admin' value of a fort in Dominions 6 determines the percentage of resources that the fort can collect from neighboring provinces. Higher admin values allow the fort to collect more resources, improving the overall resource pool of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Fortress and a Citadel in Dominions 6?</question>
+<answer>The key differences between a Fortress and a Citadel in Dominions 6 include:
+- Admin value: Fortress (30), Citadel (60)
+- Command points: Fortress (+1), Citadel (+2)
+- Recruitment points: Fortress (+75%), Citadel (+125%)
+- Supply storage: Fortress (750), Citadel (7500)
+- Wall integrity: Fortress (500), Citadel (1500)
+Additionally, the Citadel is available in the Late Age, while the Fortress is available in the Middle Age.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Describe the impact of the 'Wall Integrity' attribute on the resilience of a fort during a siege in Dominions 6.</question>
+<answer>The 'Wall Integrity' attribute of a fort in Dominions 6 determines its resilience during a siege. Higher wall integrity means the fort can withstand more damage before being breached, making it
+
+ more difficult for enemy forces to penetrate the fort's defenses.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the role of 'Command Points' in fort attributes in Dominions 6?</question>
+<answer>'Command Points' in fort attributes in Dominions 6 determine the number of commanders that can be recruited in a province with the fort. Higher command points allow for the recruitment of more commanders, enhancing the strategic flexibility of the player.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the presence of Wall Defenders and Castle Guards affect the repair strength of a fort's defenses in Dominions 6?</question>
+<answer>In Dominions 6, the presence of Wall Defenders and Castle Guards contributes to the repair strength of a fort's defenses. These units help repair the fort's walls during a siege, maintaining the fort's structural integrity and prolonging its ability to withstand enemy attacks.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Palisades to a Citadel in Dominions 6?</question>
+<answer>Upgrading a Palisades to a Citadel in Dominions 6 provides several benefits, including higher admin value (from 15 to 60), increased command points (from +0 to +2), greater recruitment points (from +50% to +125%), significantly higher supply storage (from 150 to 7500), and improved wall integrity (from 200 to 1500). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply Storage' attribute of a fort affect the units during a siege in Dominions 6?</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 determines how many units can be supplied inside the fort during a siege. Higher supply storage means more units can be sustained with the necessary supplies, helping them survive longer during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What attributes are replaced when upgrading a fort, and how does this impact strategic decisions in Dominions 6?</question>
+<answer>When upgrading a fort in Dominions 6, the admin, recruitment, supply, and wall integrity attributes of the previous fort are replaced by those of the new fort. This impacts strategic decisions as players need to consider the timing and cost of upgrades to maximize their fort's efficiency and defensive capabilities without stacking attributes from previous fort levels.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Explain how the 'Recruitment Points' attribute influences army building in provinces with forts in Dominions 6.</question>
+<answer>The 'Recruitment Points' attribute in Dominions 6 influences army building by determining the number of units that can be recruited in a province with a fort. Higher recruitment points allow for the recruitment of more units, facilitating the rapid expansion and strengthening of armies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply' attribute of a fortress impact the effectiveness of a siege in Dominions 6?</question>
+<answer>The 'Supply' attribute of a fortress in Dominions 6 impacts the effectiveness of a siege by determining how many units can be sustained inside the fort each turn. As the siege progresses, the supply value is divided by the siege duration, providing the besieged units with fewer supplies over time and potentially leading to starvation and decreased combat effectiveness.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The key differences between a Citadel and a Grand Citadel in Dominions 6 include:
+- Admin value: Citadel (60), Grand Citadel (70)
+- Command points: Citadel (+2), Grand Citadel (+2)
+- Recruitment points: Citadel (+125%), Grand Citadel (+150%)
+- Supply storage: Citadel (7500), Grand Citadel (10000)
+- Wall integrity: Citadel (1500), Grand Citadel (2000)
+Additionally, the Grand Citadel requires a mason to construct.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Describe how a fortress contributes to supply propagation in Dominions 6 and the formula involved.</question>
+<answer>In Dominions 6, a fortress contributes to supply propagation by spreading supplies to nearby provinces based on its admin value. The formula for supply propagation is (Administration * 6) / (Distance + 1). For example, a fortress with an admin value of 50 contributes 150 supply to adjacent provinces, with the supply decreasing as the distance increases up to a maximum of four provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the role of 'Wall Integrity' in determining the resilience of a fort during an enemy siege in Dominions 6?</question>
+<answer>The 'Wall Integrity' attribute in Dominions 6 determines the resilience of a fort during an enemy siege by indicating how much damage the fort's walls can withstand before being breached. Higher wall integrity means the fort can endure more damage, making it more difficult for enemy forces to break through and successfully storm the fort.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Explain the impact of 'Admin' value on the collection of resources from neighboring provinces in Dominions 6.</question>
+<answer>The 'Admin' value of a fort in Dominions 6 affects the collection of resources from neighboring provinces by determining the percentage of resources that the fort can draw from these provinces. Higher admin values increase the amount of resources collected, enhancing the economic strength of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the presence of a mason affect the construction of higher-level forts in Dominions 6?</question>
+<answer>In Dominions 6, the presence of a mason allows certain nations to construct forts one level higher than normal. For example, a nation with access to masons can build a Grand Citadel, which has higher attributes compared to a standard citadel. The mason trait is specific to certain commanders rather than a nation trait.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the build costs and attributes of a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has the following build costs and attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 60
+- Command Points: +2
+- Recruitment Points: +125%
+- Supply Storage: 7500
+- Wall Integrity: 1500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain the differences in fort availability across the Early, Middle, and Late Ages in Dominions 6.</question>
+<answer>In Dominions 6, fort availability differs across the game eras:
+- Early Age: Only fortresses are available.
+- Middle Age: Castles are available.
+- Late Age: Citadels are available.
+Additionally, some nations have unique fort-building capabilities, such as primitive or advanced forts, depending on their characteristics.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Fortress to a Grand Citadel in Dominions 6?</question>
+<answer>Upgrading a Fortress to a Grand Citadel in Dominions 6 provides several benefits, including increased admin value (from 30 to 70), more command points (from +1 to +2), higher recruitment points (from +75% to +150%), significantly greater supply storage (from 750 to 10000), and improved wall integrity (from 500 to 2000). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the 'Recruitment Points' attribute influence the recruitment of units in Dominions 6 forts?</question>
+<answer>The 'Recruitment Points' attribute in Dominions 6 influences the recruitment of units by determining the number of units that can be recruited in a province with a fort. Higher recruitment points allow for the recruitment of more units, facilitating the rapid expansion and strengthening of armies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What role do Wall Defenders play in the defense of a fort during a siege in Dominions 6?</question>
+<answer>Wall Defenders play a crucial role in the defense of a fort during a siege in Dominions 6 by providing missile support with increased range, unlimited ammunition, and protection from missiles. They also contribute to the repair strength of the fort's defenses, helping to maintain the fort's structural integrity during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+### Additional 50 QA Pairs Based on Dominions 6 Manual Page on Forts and Related Topics
+
+#### Forts and Fort Attributes (Continued)
+
+<pair>
+<question>What are the key differences between a Fortress and a Castle in Dominions 6?</question>
+<answer>The key differences between a Fortress and a Castle in Dominions 6 include:
+- Admin value: Fortress (30), Castle (45)
+- Command points: Fortress (+1), Castle (+1)
+- Recruitment points: Fortress (+75%), Castle (+100%)
+- Supply storage: Fortress (750), Castle (2500)
+- Wall integrity: Fortress (500), Castle (1000)
+The Castle has higher values in admin, recruitment, supply storage, and wall integrity compared to the Fortress.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the construction time of different fort types in Dominions 6 affect strategic planning?</question>
+<answer>The construction time of different fort types in Dominions 6 affects strategic planning by determining how quickly a player can enhance their fortifications. For example, a Palisades takes five months to build, while upgrading to a Fortress takes an additional three months. Strategic planning must account for these times to ensure fortifications are completed when needed for defense or resource management.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the main benefits of having a fort in a province in Dominions 6?</question>
+<answer>The main benefits of having a fort in a province in Dominions 6 include:
+- Enhanced resource collection from neighboring provinces
+- Increased supply propagation to surrounding provinces
+- Shelter for troops during a siege
+- Additional recruitment points and command points for building armies
+- Improved province income due to the admin value of the fort.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Explain the role of 'Admin' value in fort resource collection and supply distribution in Dominions 6.</question>
+<answer>The 'Admin' value in Dominions 6 determines how effectively a fort collects resources from neighboring provinces and distributes supplies to surrounding areas. Higher admin values improve resource collection and increase the amount of supply propagated to nearby provinces, enhancing overall economic and military support.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What happens to a fort's attributes when it is upgraded from a Castle to a Citadel in Dominions 6?</question>
+<answer>When a fort is upgraded from a Castle to a Citadel in Dominions 6, the admin value increases from 45 to 60, command points increase from +1 to +2, recruitment points increase from +100% to +125%, supply storage increases from 2500 to 7500, and wall integrity increases from 1000 to 1500. These new attributes replace those of the Castle, enhancing the fort's overall capabilities.</answer>
+<difficulty>Medium</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What limitations exist for supply propagation from a fortress in Dominions 6?</question>
+<answer>In Dominions 6, supply propagation from a fortress is limited by the distance from the fortress. The maximum distance for supply propagation is four provinces, with the supply amount decreasing as the distance increases. The formula for supply propagation is (Administration * 6) / (Distance + 1).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Defense' value of a fort affect its ability to withstand sieges in Dominions 6?</question>
+<answer>The 'Defense' value of a fort in Dominions 6 affects its ability to withstand sieges by representing the amount of damage that must be inflicted by enemy forces before the fort can be breached. A higher defense value means the fort can endure more damage, making it more difficult for the besieging army to break through the fort's defenses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of having a Grand Citadel compared to a Citadel in Dominions 6?</question>
+<answer>Compared to a Citadel, a Grand Citadel in Dominions 6 offers several benefits:
+- Higher admin value (70 vs. 60)
+- Increased recruitment points (+150% vs. +125%)
+- Greater supply storage (10000 vs. 7500)
+- Improved wall integrity (2000 vs. 1500)
+These enhancements make the Grand Citadel more effective in resource collection, unit recruitment, and defense.</answer>
+<difficulty>Hard</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Describe the impact of the 'Supply Storage' attribute on a fort's ability to sustain units during a siege in Dominions 6.</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 impacts its ability to sustain units during a siege by determining the total amount of supplies available to besieged units. Higher supply storage means more units can be sustained with necessary supplies, reducing the risk of starvation and maintaining combat effectiveness during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How do Wall Defenders' attributes enhance fort defenses during a siege in Dominions 6?</question>
+<answer>Wall Defenders enhance fort defenses during a siege in Dominions 6 by providing missile support with increased range, unlimited ammunition, and missile protection equivalent to a tower shield with a Protection value of 30. They can also be attacked by flying or ethereal units and from the stairs inside the walls, contributing to the overall repair strength of the fort's defenses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes of a Fortress in Dominions 6?</question>
+<answer>A Fortress in Dominions 6 has the following attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 30
+- Command Points: +1
+- Recruitment Points: +75%
+- Supply Storage: 750
+- Wall Integrity: 500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain the significance of 'Admin' value in determining a fort's resource collection efficiency in Dominions 6.</question>
+<answer>The 'Admin' value in Dominions 6 is significant for determining a fort's resource collection efficiency as it dictates the percentage of resources that can be drawn from neighboring provinces. Higher admin values result in more efficient resource collection, enhancing the economic strength of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the build cost of different fort types impact strategic decisions in Dominions 6?</question>
+<answer>The build cost of different fort types in Dominions 6 impacts strategic decisions by influencing resource allocation and timing. For example, constructing a Palisades requires 1000 gold, while upgrading to a Grand Citadel requires an additional 1000 gold. Players must consider these costs when planning fort upgrades to balance economic and military priorities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the role of 'Command Points' in fort attributes in Dominions 6, and how do they affect gameplay?</question>
+<answer>'Command Points' in fort attributes in Dominions 6 determine the number of commanders that can be recruited in a province with the fort. Higher command points allow for the recruitment of more commanders, enhancing strategic flexibility and the ability to lead larger or multiple armies, thus affecting overall gameplay and military strategy.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the attributes and build costs of a Citadel in Dominions 6.</question>
+<answer>A Citadel in Dominions 6 has the following attributes and build costs:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 60
+- Command Points: +2
+- Recruitment Points: +125%
+- Supply Storage: 7500
+- Wall Integrity: 1500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What factors influence the construction of higher-level forts in Dominions 6?</question>
+<answer>In Dominions 6, factors influencing the construction of higher-level forts include the availability of masons (who allow certain nations to build forts one level higher), the era of the game (which dictates available fort levels), and the specific attributes and costs associated with each fort level. Strategic planning and resource management are crucial for constructing higher-level forts.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the key attributes of a Palisades fort in Dominions 6, and how do they compare to other fort types?</question>
+<answer>A Palisades fort in Dominions 6 has the following key attributes:
+- Build Cost: 1000 gold
+- Build Time: 5 months
+- Admin: 15
+- Command Points: +0
+- Recruitment Points: +50%
+- Supply Storage: 150
+- Wall Integrity: 200
+Compared to other fort types, Palisades have lower values in admin, command points, recruitment points, supply storage, and wall
+
+ integrity, making them the most basic fortification.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Explain how the 'Supply' attribute of a fortress affects the outcome of a siege in Dominions 6.</question>
+<answer>The 'Supply' attribute of a fortress in Dominions 6 affects the outcome of a siege by determining how many units can be sustained inside the fort each turn. As the siege progresses, the supply value is divided by the number of turns under siege, providing fewer supplies to besieged units over time, potentially leading to starvation and decreased combat effectiveness.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Palisades to a Citadel in Dominions 6?</question>
+<answer>Upgrading a Palisades to a Citadel in Dominions 6 provides several benefits, including higher admin value (from 15 to 60), increased command points (from +0 to +2), greater recruitment points (from +50% to +125%), significantly higher supply storage (from 150 to 7500), and improved wall integrity (from 200 to 1500). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do Castle Guards and Wall Defenders contribute to a fort's defense during a siege in Dominions 6?</question>
+<answer>Castle Guards and Wall Defenders contribute to a fort's defense during a siege in Dominions 6 by providing melee and ranged support, respectively. Castle Guards are stationed behind the gate, while Wall Defenders are positioned on the walls with increased missile range and protection. Both units also help repair the fort's defenses, maintaining its structural integrity during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the significance of the 'Wall Integrity' attribute in determining a fort's resilience in Dominions 6?</question>
+<answer>The 'Wall Integrity' attribute in Dominions 6 is significant for determining a fort's resilience during a siege by indicating how much damage the fort's walls can withstand before being breached. Higher wall integrity means the fort can endure more damage, making it more difficult for enemy forces to penetrate the fort's defenses.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the era of the game affect the types of forts available to most nations in Dominions 6?</question>
+<answer>The era of the game affects the types of forts available to most nations in Dominions 6 as follows:
+- Early Age: Only fortresses are available.
+- Middle Age: Castles are available.
+- Late Age: Citadels are available.
+Some nations have unique fort-building capabilities, such as primitive or advanced forts, depending on their characteristics.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes of a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has the following attributes:
+- Build Cost: 1000 gold
+- Build Time: 5 months
+- Admin: 70
+- Command Points: +2
+- Recruitment Points: +150%
+- Supply Storage: 10000
+- Wall Integrity: 2000</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain the role of 'Supply Storage' in sustaining besieged units during a siege in Dominions 6.</question>
+<answer>The role of 'Supply Storage' in sustaining besieged units during a siege in Dominions 6 is to determine the total amount of supplies available to the units inside the fort. Higher supply storage means more units can be sustained with necessary supplies, reducing the risk of starvation and maintaining combat effectiveness during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the impact of the 'Recruitment Points' attribute on army building in Dominions 6 forts?</question>
+<answer>The 'Recruitment Points' attribute in Dominions 6 impacts army building by determining the number of units that can be recruited in a province with a fort. Higher recruitment points allow for the recruitment of more units, facilitating the rapid expansion and strengthening of armies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Defense' value of a fort influence the outcome of a siege in Dominions 6?</question>
+<answer>The 'Defense' value of a fort in Dominions 6 influences the outcome of a siege by representing the amount of damage that must be inflicted by enemy forces before the fort can be breached. A higher defense value means the fort can endure more damage, making it more difficult for the besieging army to break through the fort's defenses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key attributes of a Castle fort in Dominions 6?</question>
+<answer>A Castle fort in Dominions 6 has the following attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 45
+- Command Points: +1
+- Recruitment Points: +100%
+- Supply Storage: 2500
+- Wall Integrity: 1000</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>How do Wall Defenders enhance the defense of a fort during a siege in Dominions 6?</question>
+<answer>Wall Defenders enhance the defense of a fort during a siege in Dominions 6 by providing missile support with increased range, unlimited ammunition, and missile protection equivalent to a tower shield with a Protection value of 30. They also contribute to the repair strength of the fort's defenses, helping to maintain the fort's structural integrity during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Fortress to a Grand Citadel in Dominions 6?</question>
+<answer>Upgrading a Fortress to a Grand Citadel in Dominions 6 provides several benefits, including increased admin value (from 30 to 70), more command points (from +1 to +2), higher recruitment points (from +75% to +150%), significantly greater supply storage (from 750 to 10000), and improved wall integrity (from 500 to 2000). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the role of 'Admin' value in fort resource collection and supply distribution in Dominions 6?</question>
+<answer>The 'Admin' value in Dominions 6 determines how effectively a fort collects resources from neighboring provinces and distributes supplies to surrounding areas. Higher admin values improve resource collection and increase the amount of supply propagated to nearby provinces, enhancing overall economic and military support.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What attributes are replaced when upgrading a fort, and how does this impact strategic decisions in Dominions 6?</question>
+<answer>When upgrading a fort in Dominions 6, the admin, recruitment, supply, and wall integrity attributes of the previous fort are replaced by those of the new fort. This impacts strategic decisions as players need to consider the timing and cost of upgrades to maximize their fort's efficiency and defensive capabilities without stacking attributes from previous fort levels.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Explain the significance of 'Wall Integrity' in determining a fort's resilience in Dominions 6.</question>
+<answer>The 'Wall Integrity' attribute in Dominions 6 is significant for determining a fort's resilience during a siege by indicating how much damage the fort's walls can withstand before being breached. Higher wall integrity means the fort can endure more damage, making it more difficult for enemy forces to penetrate the fort's defenses.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply Storage' attribute impact the effectiveness of a siege in Dominions 6?</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 impacts the effectiveness of a siege by determining how many units can be sustained inside the fort each turn. As the siege progresses, the supply value is divided by the siege duration, providing fewer supplies to besieged units over time and potentially leading to starvation and decreased combat effectiveness.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Describe the impact of the 'Recruitment Points' attribute on unit recruitment in Dominions 6 forts.</question>
+<answer>The 'Recruitment Points' attribute in Dominions 6 impacts unit recruitment by determining the number of units that can be recruited in a province with a fort. Higher recruitment points allow for the recruitment of more units, facilitating the rapid expansion and strengthening of armies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the build cost of different fort types affect strategic planning in Dominions 6?</question>
+<
+
+answer>The build cost of different fort types in Dominions 6 affects strategic planning by influencing resource allocation and timing. For example, constructing a Palisades requires 1000 gold, while upgrading to a Grand Citadel requires an additional 1000 gold. Players must consider these costs when planning fort upgrades to balance economic and military priorities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the key attributes of a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has the following key attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 60
+- Command Points: +2
+- Recruitment Points: +125%
+- Supply Storage: 7500
+- Wall Integrity: 1500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain the role of 'Admin' value in determining a fort's resource collection efficiency in Dominions 6.</question>
+<answer>The 'Admin' value in Dominions 6 is significant for determining a fort's resource collection efficiency as it dictates the percentage of resources that can be drawn from neighboring provinces. Higher admin values result in more efficient resource collection, enhancing the economic strength of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes and build costs of a Palisades fort in Dominions 6?</question>
+<answer>A Palisades fort in Dominions 6 has the following attributes and build costs:
+- Build Cost: 1000 gold
+- Build Time: 5 months
+- Admin: 15
+- Command Points: +0
+- Recruitment Points: +50%
+- Supply Storage: 150
+- Wall Integrity: 200</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Castle to a Grand Citadel in Dominions 6?</question>
+<answer>Upgrading a Castle to a Grand Citadel in Dominions 6 provides several benefits, including increased admin value (from 45 to 70), more command points (from +1 to +2), higher recruitment points (from +100% to +150%), significantly greater supply storage (from 2500 to 10000), and improved wall integrity (from 1000 to 2000). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How do Wall Defenders contribute to the repair strength of a fort's defenses in Dominions 6?</question>
+<answer>Wall Defenders contribute to the repair strength of a fort's defenses in Dominions 6 by helping to repair the fort's walls during a siege, maintaining the fort's structural integrity. They also provide missile support with increased range, unlimited ammunition, and protection from missiles, enhancing the fort's overall defensive capabilities.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Fortress and a Citadel in Dominions 6?</question>
+<answer>The key differences between a Fortress and a Citadel in Dominions 6 include:
+- Admin value: Fortress (30), Citadel (60)
+- Command points: Fortress (+1), Citadel (+2)
+- Recruitment points: Fortress (+75%), Citadel (+125%)
+- Supply storage: Fortress (750), Citadel (7500)
+- Wall integrity: Fortress (500), Citadel (1500)
+The Citadel has higher values in admin, command points, recruitment points, supply storage, and wall integrity compared to the Fortress.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the presence of masons affect fort construction in Dominions 6?</question>
+<answer>In Dominions 6, the presence of masons allows certain nations to construct forts one level higher than normal. For example, a nation with access to masons can build a Grand Citadel, which has higher attributes compared to a standard citadel. The mason trait is specific to certain commanders rather than a nation trait.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What is the role of 'Command Points' in fort attributes in Dominions 6?</question>
+<answer>'Command Points' in fort attributes in Dominions 6 determine the number of commanders that can be recruited in a province with the fort. Higher command points allow for the recruitment of more commanders, enhancing strategic flexibility and the ability to lead larger or multiple armies.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply Storage' attribute of a fort affect units during a siege in Dominions 6?</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 impacts its ability to sustain units during a siege by determining the total amount of supplies available to besieged units. Higher supply storage means more units can be sustained with necessary supplies, reducing the risk of starvation and maintaining combat effectiveness during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The key differences between a Citadel and a Grand Citadel in Dominions 6 include:
+- Admin value: Citadel (60), Grand Citadel (70)
+- Command points: Citadel (+2), Grand Citadel (+2)
+- Recruitment points: Citadel (+125%), Grand Citadel (+150%)
+- Supply storage: Citadel (7500), Grand Citadel (10000)
+- Wall integrity: Citadel (1500), Grand Citadel (2000)
+Additionally, the Grand Citadel requires a mason to construct.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Explain how fort upgrades impact the collection of resources in Dominions 6.</question>
+<answer>In Dominions 6, fort upgrades impact the collection of resources by increasing the admin value, which determines the percentage of resources that the fort can collect from neighboring provinces. Higher-level forts have higher admin values, enabling better resource collection and supply propagation.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes and build costs of a Castle fort in Dominions 6?</question>
+<answer>A Castle fort in Dominions 6 has the following attributes and build costs:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 45
+- Command Points: +1
+- Recruitment Points: +100%
+- Supply Storage: 2500
+- Wall Integrity: 1000</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>How does the 'Defense' value of a fort affect its ability to withstand sieges in Dominions 6?</question>
+<answer>The 'Defense' value of a fort in Dominions 6 affects its ability to withstand sieges by representing the amount of damage that must be inflicted by enemy forces before the fort can be breached. A higher defense value means the fort can endure more damage, making it more difficult for the besieging army to break through the fort's defenses.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the 'Supply Storage' attribute of a fort impact the effectiveness of a siege in Dominions 6?</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 impacts the effectiveness of a siege by determining how many units can be sustained inside the fort each turn. As the siege progresses, the supply value is divided by the siege duration, providing fewer supplies to besieged units over time and potentially leading to starvation and decreased combat effectiveness.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>Describe how a fortress contributes to supply propagation in Dominions 6.</question>
+<answer>In Dominions 6, a fortress contributes to supply propagation by spreading supplies to nearby provinces based on its admin value. The formula for supply propagation is (Administration * 6) / (Distance + 1). For example, a fortress with an admin value of 50 contributes 150 supply to adjacent provinces, with the supply decreasing as the distance increases up to a maximum of four provinces.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Fortress and a Castle in Dominions 6?</question>
+<answer>The key differences between a Fortress and a Castle in Dominions 6 include:
+- Admin value: Fortress (30), Castle (45)
+- Command points: Fortress (+1), Castle (+1)
+- Recruitment points: Fortress (+75%), Castle (+100%)
+- Supply storage: Fortress (750), Castle (2500)
+- Wall integrity: Fortress (500), Castle (1000)
+The Castle has higher values in admin, command points, recruitment points, supply storage, and wall integrity compared to the Fortress.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>What are the benefits of
+
+ upgrading a Palisades to a Citadel in Dominions 6?</question>
+<answer>Upgrading a Palisades to a Citadel in Dominions 6 provides several benefits, including higher admin value (from 15 to 60), increased command points (from +0 to +2), greater recruitment points (from +50% to +125%), significantly higher supply storage (from 150 to 7500), and improved wall integrity (from 200 to 1500). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the 'Admin' value of a fort affect the collection of resources from neighboring provinces in Dominions 6?</question>
+<answer>The 'Admin' value of a fort in Dominions 6 affects the collection of resources from neighboring provinces by determining the percentage of resources that the fort can draw from these provinces. Higher admin values increase the amount of resources collected, enhancing the economic strength of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>How does the presence of masons affect the construction of higher-level forts in Dominions 6?</question>
+<answer>In Dominions 6, the presence of masons allows certain nations to construct forts one level higher than normal. For example, a nation with access to masons can build a Grand Citadel, which has higher attributes compared to a standard citadel. The mason trait is specific to certain commanders rather than a nation trait.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the attributes and build costs of a Citadel in Dominions 6.</question>
+<answer>A Citadel in Dominions 6 has the following attributes and build costs:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 60
+- Command Points: +2
+- Recruitment Points: +125%
+- Supply Storage: 7500
+- Wall Integrity: 1500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>What are the benefits of having a Grand Citadel compared to a Citadel in Dominions 6?</question>
+<answer>Compared to a Citadel, a Grand Citadel in Dominions 6 offers several benefits:
+- Higher admin value (70 vs. 60)
+- Increased recruitment points (+150% vs. +125%)
+- Greater supply storage (10000 vs. 7500)
+- Improved wall integrity (2000 vs. 1500)
+These enhancements make the Grand Citadel more effective in resource collection, unit recruitment, and defense.</answer>
+<difficulty>Hard</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Explain how fort upgrades impact strategic planning in Dominions 6.</question>
+<answer>Fort upgrades in Dominions 6 impact strategic planning by determining how quickly a player can enhance their fortifications. For example, upgrading from a Palisades to a Grand Citadel involves multiple stages and costs, with each stage improving the fort's attributes. Players must consider the timing and resources required for these upgrades to maximize their defensive and economic benefits.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the 'Admin' value of a fort influence supply propagation in Dominions 6?</question>
+<answer>The 'Admin' value of a fort in Dominions 6 influences supply propagation by determining the amount of supply that can be distributed to nearby provinces. Higher admin values result in greater supply propagation, improving the support for adjacent provinces. The formula for supply propagation is (Administration * 6) / (Distance + 1).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Fortress to a Citadel in Dominions 6?</question>
+<answer>Upgrading a Fortress to a Citadel in Dominions 6 provides several benefits, including increased admin value (from 30 to 60), more command points (from +1 to +2), higher recruitment points (from +75% to +125%), significantly greater supply storage (from 750 to 7500), and improved wall integrity (from 500 to 1500). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>How does the era of the game affect fort availability for most nations in Dominions 6?</question>
+<answer>The era of the game affects fort availability for most nations in Dominions 6 as follows:
+- Early Age: Only fortresses are available.
+- Middle Age: Castles are available.
+- Late Age: Citadels are available.
+Additionally, some nations have unique fort-building capabilities, such as primitive or advanced forts, depending on their characteristics.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>Describe the impact of the 'Supply Storage' attribute on a fort's ability to sustain units during a siege in Dominions 6.</question>
+<answer>The 'Supply Storage' attribute of a fort in Dominions 6 impacts its ability to sustain units during a siege by determining the total amount of supplies available to the units inside the fort. Higher supply storage means more units can be sustained with necessary supplies, reducing the risk of starvation and maintaining combat effectiveness during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the attributes of a Fortress in Dominions 6?</question>
+<answer>A Fortress in Dominions 6 has the following attributes:
+- Build Cost: 600 gold
+- Build Time: 3 months
+- Admin: 30
+- Command Points: +1
+- Recruitment Points: +75%
+- Supply Storage: 750
+- Wall Integrity: 500</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>Explain the significance of 'Wall Integrity' in determining a fort's resilience in Dominions 6.</question>
+<answer>The 'Wall Integrity' attribute in Dominions 6 is significant for determining a fort's resilience during a siege by indicating how much damage the fort's walls can withstand before being breached. Higher wall integrity means the fort can endure more damage, making it more difficult for enemy forces to penetrate the fort's defenses.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the 'Admin' value of a fort affect the collection of resources from neighboring provinces in Dominions 6?</question>
+<answer>The 'Admin' value of a fort in Dominions 6 affects the collection of resources from neighboring provinces by determining the percentage of resources that the fort can draw from these provinces. Higher admin values increase the amount of resources collected, enhancing the economic strength of the province where the fort is located.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What factors limit the supply propagation of a fortress to nearby provinces in Dominions 6?</question>
+<answer>The supply propagation of a fortress to nearby provinces in Dominions 6 is limited by the distance from the fortress. The maximum distance for supply propagation is four provinces, with the supply amount decreasing as the distance increases. The formula for supply propagation is (Administration * 6) / (Distance + 1).</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key attributes of a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has the following key attributes:
+- Build Cost: 1000 gold
+- Build Time: 5 months
+- Admin: 70
+- Command Points: +2
+- Recruitment Points: +150%
+- Supply Storage: 10000
+- Wall Integrity: 2000</answer>
+<difficulty>Easy</difficulty>
+<category>Example</category>
+</pair>
+
+<pair>
+<question>How do Wall Defenders enhance fort defenses during a siege in Dominions 6?</question>
+<answer>Wall Defenders enhance fort defenses during a siege in Dominions 6 by providing missile support with increased range, unlimited ammunition, and missile protection equivalent to a tower shield with a Protection value of 30. They also contribute to the repair strength of the fort's defenses, helping to maintain the fort's structural integrity during the siege.</answer>
+<difficulty>Medium</difficulty>
+<category>Mechanics</category>
+</pair>
+
+<pair>
+<question>What are the key differences between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The key differences between a Citadel and a Grand Citadel in Dominions 6 include:
+- Admin value: Citadel (60), Grand Citadel (70)
+- Command points: Citadel (+2), Grand Citadel (+2)
+- Recruitment points: Citadel (+125%), Grand Citadel (+150%)
+- Supply storage: Citadel (7500), Grand Citadel (10000)
+- Wall integrity: Citadel (1500), Grand Citadel (2000)
+Additionally, the Grand Citadel requires a mason to construct.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the build cost of different fort types affect strategic planning in Dominions 6?</question>
+<answer>The build cost of different fort types in Dominions 6 affects strategic planning by influencing resource allocation and timing. For example, constructing a Palisades requires 1000 gold, while upgrading to a Grand Citadel requires an additional 1000 gold. Players must consider these costs when planning fort upgrades to balance economic and military priorities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What are the benefits of upgrading a Fortress to a Citadel in Dominions 6?</question>
+<answer>Upgrading a Fortress to a Citadel in Dominions 6 provides several benefits, including increased admin value (from 30 to 60), more command points (from +1 to +2), higher recruitment points (from +75% to +125%), significantly greater supply storage (from 750 to 7500), and improved wall integrity (from 500 to 1500). These upgrades enhance the fort's resource collection, supply distribution, and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Application</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Citadel in Dominions 6?</question>
+<answer>The admin value of a Citadel in Dominions 6 is 60.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Grand Citadel in Dominions 6 is 70.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Citadel provide in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Grand Citadel provide in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has +125% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has +150% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Citadel in Dominions 6?</question>
+<answer>The supply storage of a Citadel in Dominions 6 is 7500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Grand Citadel in Dominions 6 is 10000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Citadel in Dominions 6 is 1500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Grand Citadel in Dominions 6 is 2000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What special requirement is needed to construct a Grand Citadel in Dominions 6?</question>
+<answer>Constructing a Grand Citadel in Dominions 6 requires a mason.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the admin value differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Citadel is 60, while the admin value of a Grand Citadel is 70.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the recruitment points value differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The recruitment points of a Citadel are +125%, while the recruitment points of a Grand Citadel are +150%.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the supply storage differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Citadel is 7500, while the supply storage of a Grand Citadel is 10000.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the wall integrity differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Citadel is 1500, while the wall integrity of a Grand Citadel is 2000.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Do both the Citadel and Grand Citadel in Dominions 6 provide the same command points?</question>
+<answer>Yes, both the Citadel and Grand Citadel in Dominions 6 provide +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Comparison</category>
+</pair>
+
+### Broken Down QA Pairs
+
+<pair>
+<question>What is the build cost of a Grand Citadel in Dominions 6?</question>
+<answer>The build cost of a Grand Citadel in Dominions 6 is 1000 gold.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How long does it take to build a Grand Citadel in Dominions 6?</question>
+<answer>It takes 5 months to build a Grand Citadel in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Grand Citadel in Dominions 6 is 70.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Grand Citadel provide in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has +150% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Grand Citadel in Dominions 6 is 10000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Grand Citadel in Dominions 6 is 2000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+### Broken Down QA Pairs
+
+<pair>
+<question>What is the build cost of a Grand Citadel in Dominions 6?</question>
+<answer>The build cost of a Grand Citadel in Dominions 6 is 1000 gold.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How long does it take to build a Grand Citadel in Dominions 6?</question>
+<answer>It takes 5 months to build a Grand Citadel in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Grand Citadel in Dominions 6 is 70.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Grand Citadel provide in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has +150% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Grand Citadel in Dominions 6 is 10000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Grand Citadel in Dominions 6 is 2000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+### Broken Down QA Pairs
+
+#### Citadel Attributes and Build Costs
+
+<pair>
+<question>What is the build cost of a Citadel in Dominions 6?</question>
+<answer>The build cost of a Citadel in Dominions 6 is 600 gold.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How long does it take to build a Citadel in Dominions 6?</question>
+<answer>It takes 3 months to build a Citadel in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Citadel in Dominions 6?</question>
+<answer>The admin value of a Citadel in Dominions 6 is 60.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Citadel provide in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has +125% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Citadel in Dominions 6?</question>
+<answer>The supply storage of a Citadel in Dominions 6 is 7500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Citadel in Dominions 6 is 1500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+#### Grand Citadel Benefits
+
+<pair>
+<question>What is the admin value of a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Grand Citadel in Dominions 6 is 70.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many recruitment points does a Grand Citadel provide in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 provides +150% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Grand Citadel in Dominions 6 is 10000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Grand Citadel in Dominions 6 is 2000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>Why is a Grand Citadel more effective than a Citadel in Dominions 6?</question>
+<answer>A Grand Citadel is more effective than a Citadel in Dominions 6 because it has higher admin value, increased recruitment points, greater supply storage, and improved wall integrity.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+#### Fortress vs. Castle
+
+<pair>
+<question>What is the admin value of a Fortress in Dominions 6?</question>
+<answer>The admin value of a Fortress in Dominions 6 is 30.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Castle in Dominions 6?</question>
+<answer>The admin value of a Castle in Dominions 6 is 45.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Fortress provide in Dominions 6?</question>
+<answer>A Fortress in Dominions 6 provides +1 command point.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Castle provide in Dominions 6?</question>
+<answer>A Castle in Dominions 6 provides +1 command point.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Fortress in Dominions 6?</question>
+<answer>A Fortress in Dominions 6 has +75% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Castle in Dominions 6?</question>
+<answer>A Castle in Dominions 6 has +100% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Fortress in Dominions 6?</question>
+<answer>The supply storage of a Fortress in Dominions 6 is 750.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Castle in Dominions 6?</question>
+<answer>The supply storage of a Castle in Dominions 6 is 2500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Fortress in Dominions 6?</question>
+<answer>The wall integrity of a Fortress in Dominions 6 is 500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Castle in Dominions 6?</question>
+<answer>The wall integrity of a Castle in Dominions 6 is 1000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do the attributes of a Castle compare to those of a Fortress in Dominions 6?</question>
+<answer>In Dominions 6, a Castle has higher values in admin, recruitment points, supply storage, and wall integrity compared to a Fortress.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+#### Castle Attributes and Build Costs
+
+<pair>
+<question>What is the build cost of a Castle in Dominions 6?</question>
+<answer>The build cost of a Castle in Dominions 6 is 600 gold.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How long does it take to build a Castle in Dominions 6?</question>
+<answer>It takes 3 months to build a Castle in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Castle in Dominions 6?</question>
+<answer>The admin value of a Castle in Dominions 6 is 45.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Castle provide in Dominions 6?</question>
+<answer>A Castle in Dominions 6 provides +1 command point.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Castle in Dominions 6?</question>
+<answer>A Castle in Dominions 6 has +100% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Castle in Dominions 6?</question>
+<answer>The supply storage of a Castle in Dominions 6 is 2500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Castle in Dominions 6?</question>
+<answer>The wall integrity of a Castle in Dominions 6 is 1000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+#### Citadel vs. Grand Citadel
+
+<pair>
+<question>What is the admin value of a Citadel in Dominions 6?</question>
+<answer>The admin value of a Citadel in Dominions 6 is 60.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Grand Citadel in Dominions 6 is 70.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Citadel provide in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a
+
+ Grand Citadel provide in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 provides +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Citadel in Dominions 6?</question>
+<answer>A Citadel in Dominions 6 has +125% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Grand Citadel in Dominions 6?</question>
+<answer>A Grand Citadel in Dominions 6 has +150% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Citadel in Dominions 6?</question>
+<answer>The supply storage of a Citadel in Dominions 6 is 7500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Grand Citadel in Dominions 6 is 10000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Citadel in Dominions 6 is 1500.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Grand Citadel in Dominions 6 is 2000.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What special requirement is needed to construct a Grand Citadel in Dominions 6?</question>
+<answer>Constructing a Grand Citadel in Dominions 6 requires a mason.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does the admin value differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The admin value of a Citadel is 60, while the admin value of a Grand Citadel is 70.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the recruitment points value differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The recruitment points of a Citadel are +125%, while the recruitment points of a Grand Citadel are +150%.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the supply storage differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The supply storage of a Citadel is 7500, while the supply storage of a Grand Citadel is 10000.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>How does the wall integrity differ between a Citadel and a Grand Citadel in Dominions 6?</question>
+<answer>The wall integrity of a Citadel is 1500, while the wall integrity of a Grand Citadel is 2000.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+
+<pair>
+<question>Do both the Citadel and Grand Citadel in Dominions 6 provide the same command points?</question>
+<answer>Yes, both the Citadel and Grand Citadel in Dominions 6 provide +2 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Comparison</category>
+</pair>
+
+#### Palisades Attributes and Build Costs
+
+<pair>
+<question>What is the build cost of a Palisades fort in Dominions 6?</question>
+<answer>The build cost of a Palisades fort in Dominions 6 is 1000 gold.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How long does it take to build a Palisades fort in Dominions 6?</question>
+<answer>It takes 5 months to build a Palisades fort in Dominions 6.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the admin value of a Palisades fort in Dominions 6?</question>
+<answer>The admin value of a Palisades fort in Dominions 6 is 15.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How many command points does a Palisades fort provide in Dominions 6?</question>
+<answer>A Palisades fort in Dominions 6 provides +0 command points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What are the recruitment points for a Palisades fort in Dominions 6?</question>
+<answer>A Palisades fort in Dominions 6 has +50% recruitment points.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the supply storage of a Palisades fort in Dominions 6?</question>
+<answer>The supply storage of a Palisades fort in Dominions 6 is 150.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What is the wall integrity of a Palisades fort in Dominions 6?</question>
+<answer>The wall integrity of a Palisades fort in Dominions 6 is 200.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+#### Benefits of Forts
+
+<pair>
+<question>How does a fort enhance resource collection in Dominions 6?</question>
+<answer>A fort enhances resource collection in Dominions 6 by drawing resources from neighboring provinces based on its admin value.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does a fort increase supply propagation in Dominions 6?</question>
+<answer>A fort increases supply propagation in Dominions 6 by distributing supplies to surrounding provinces based on its admin value.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>What role does a fort play during a siege in Dominions 6?</question>
+<answer>A fort provides shelter for troops during a siege in Dominions 6, protecting them and maintaining supply levels to sustain the defense.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How do forts contribute to building armies in Dominions 6?</question>
+<answer>Forts contribute to building armies in Dominions 6 by providing additional recruitment points and command points, allowing for more units and commanders to be recruited.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+
+<pair>
+<question>How does a fort improve province income in Dominions 6?</question>
+<answer>A fort improves province income in Dominions 6 by increasing the admin value, which boosts the percentage of resources collected from the province and neighboring areas.</answer>
+<difficulty>Easy</difficulty>
+<category>Basic Concept</category>
+</pair>
+<pair>
+<question>Compare the strategic advantages of a Citadel versus a Grand Citadel in Dominions 6, considering their attributes and the resources required to build them.</question>
+<answer>A Citadel in Dominions 6 requires 600 gold and three months to build. It has an admin value of 60, provides +2 command points, +125% recruitment points, 7500 supply storage, and 1500 wall integrity. In contrast, a Grand Citadel requires 1000 gold and five months to build, has an admin value of 70, provides +2 command points, +150% recruitment points, 10000 supply storage, and 2000 wall integrity. Strategically, a Grand Citadel offers superior resource collection, recruitment capacity, supply storage, and defensive strength compared to a Citadel, but it also demands a higher investment in resources and time.</answer>
+<difficulty>Medium</difficulty>
+<category>Comparison</category>
+</pair>
+<pair>
+<question>Analyze the trade-offs between building a Castle and a Fortress in Dominions 6, considering their attributes and their impact on different aspects of gameplay.</question>
+<answer>In Dominions 6, building a Castle requires 600 gold and three months, with attributes of admin 45, +1 command points, +100% recruitment points, 2500 supply storage, and 1000 wall integrity. A Fortress also requires 600 gold and three months but has different attributes: admin 30, +1 command points, +75% recruitment points, 750 supply storage, and 500 wall integrity. The trade-offs include higher admin value, recruitment points, and supply storage for the Castle, providing better economic benefits and stronger defenses, versus the lower cost and build time for the Fortress, which may be more feasible in resource-scarce situations.</answer>
+<difficulty>Medium</difficulty>
+<category>Analysis</category>
+</pair>
+<pair>
+<question>Evaluate the long-term strategic implications of upgrading from a Palisades to a Citadel in Dominions 6, considering resource investment, defensive capabilities, and economic impact.</question>
+<answer>Upgrading from a Palisades to a Citadel in Dominions 6 involves significant resource investment and build time. A Palisades costs 1000 gold and takes five months to build, with attributes of admin 15, +0 command points, +50% recruitment points, 150 supply storage, and 200 wall integrity. A Citadel, requiring an additional 1200 gold and six months, offers admin 60, +2 command points, +125% recruitment points, 7500 supply storage, and 1500 wall integrity. The long-term strategic implications include substantially improved resource collection, recruitment capacity, and defense, enhancing the province's economic output and military resilience.</answer>
+<difficulty>Hard</difficulty>
+<category>Evaluation</category>
+</pair>
+<pair>
+<question>Develop a strategy for fort construction and upgrades throughout a game of Dominions 6, considering the build costs, attributes, and strategic value of each fort type at different game stages.</question>
+<answer>In Dominions 6, an effective strategy for fort construction and upgrades involves initial building of Palisades for early resource collection and basic defense. As resources accumulate, upgrading to a Fortress provides enhanced admin value and recruitment capacity. In the mid-game, constructing Castles ensures significant boosts in admin value, supply storage, and wall integrity. Finally, upgrading to Citadels and Grand Citadels in the late game maximizes economic benefits and fort defenses, ensuring strategic strongholds. This staged approach balances resource expenditure with progressively improving provincial benefits and defensive capabilities.</answer>
+<difficulty>Hard</difficulty>
+<category>Strategy</category>
+</pair>
+<pair>
+<question>Analyze how the placement and type of forts can influence territorial control, resource management, and military strategy in Dominions 6.</question>
+<answer>In Dominions 6, fort placement and type critically influence territorial control, resource management, and military strategy. Strategically placed forts in resource-rich provinces enhance resource collection and supply propagation, bolstering economic strength. High-level forts like Citadels and Grand Citadels provide robust defenses, securing key territories against sieges. Additionally, forts positioned near borders act as strategic bastions, deterring enemy advances and supporting offensive operations with their recruitment capabilities. Thus, fort placement and upgrades must align with overarching strategic goals to optimize territorial control, resource efficiency, and military effectiveness.</answer>
+<difficulty>Hard</difficulty>
+<category>Analysis</category>
+</pair>
